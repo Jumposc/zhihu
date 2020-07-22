@@ -1,0 +1,692 @@
+body {
+  background-color: #f6f6f6;
+}
+body > header {
+  width: 100%;
+  height: 52px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(26, 26, 26, 0.1);
+}
+body > header > .main {
+  margin: 0 auto;
+  width: 1000px;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body > header > .main > .logo {
+  height: 34px;
+}
+body > header > .main > .tab {
+  margin: 0 23px;
+  font-size: 0;
+  vertical-align: middle;
+}
+body > header > .main > .tab > div {
+  display: inline-block;
+  padding: 0 17px;
+  font-size: 15px;
+  color: #8590a6;
+}
+body > header > .main > .tab > .index {
+  font-weight: 600;
+  color: #444;
+}
+body > header > .main > .search {
+  display: flex;
+}
+body > header > .main > .search > .container {
+  height: 34px;
+  background-color: #f6f6f6;
+  padding-left: 12px;
+  width: 326px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid #ebebeb;
+}
+body > header > .main > .search > .container > input {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+  height: 100%;
+  padding: 4px 0;
+  box-sizing: border-box;
+  background-color: #f6f6f6;
+  outline: none;
+  line-height: 34px;
+  font-size: 14px;
+  color: #8f96ab;
+}
+body > header > .main > .search > .container > .icon {
+  width: 18px;
+  height: 100%;
+  flex: 0 0 auto;
+  margin: 0 13px 0 25px;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+}
+body > header > .main > .search > .container > .icon > svg {
+  color: #8590a6;
+}
+body > header > .main > .search > button {
+  background-color: #0084ff;
+  color: #fff;
+  padding: 0 14px;
+  margin-left: 16px;
+  border: 1px solid;
+  border-radius: 3px;
+  font-size: 14px;
+  outline: none;
+  line-height: 30px;
+}
+body > header > .main > .user-info {
+  flex: 1;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+body > header > .main > .user-info > * {
+  display: inline-flex;
+  align-items: center;
+}
+body > header > .main > .user-info > * > svg {
+  color: #8590a6;
+}
+body > header > .main > .user-info > .notice {
+  flex: 0;
+  margin-right: 40px;
+}
+body > header > .main > .user-info > .mg {
+  flex: 0;
+  margin-right: 40px;
+}
+body > header > .main > .user-info .user-img {
+  width: 30px;
+  flex: 0 0 auto;
+  position: relative;
+  outline: none;
+}
+body > header > .main > .user-info .user-img > img {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+body > header > .main > .user-info .user-img > .menu {
+  width: 120px;
+  position: fixed;
+  display: none;
+  top: 60px;
+  right: calc(((100% - 1000px) / 2) - (120px / 2) + 15px);
+  padding: 10px 0;
+  background-color: #fff;
+  box-shadow: 0 5px 20px rgba(26, 26, 26, 0.1);
+}
+body > header > .main > .user-info .user-img > .menu > .item {
+  height: 36px;
+  width: 100%;
+  line-height: 36px;
+  padding: 0 20px;
+  font-size: 14px;
+  color: #8590a6;
+  box-sizing: border-box;
+}
+body > header > .main > .user-info .user-img > .menu > .tri {
+  background-color: #fff;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+body > header > .main > .user-info .user-img:focus > .menu {
+  display: block;
+}
+body > section {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 0;
+}
+body > section > * {
+  vertical-align: top;
+  display: inline-block;
+}
+body > section > .main {
+  width: 694px;
+  margin-right: 10px;
+  box-shadow: 0 1px 3px rgba(26, 26, 26, 0.1);
+}
+body > section > .main > * {
+  background-color: #fff;
+}
+body > section > .main > .tab {
+  border-bottom: 1px solid #f0f2f7;
+  font-size: 0;
+  height: 58px;
+}
+body > section > .main > .tab > .item {
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 22px;
+  line-height: 58px;
+}
+body > section > .main > .content > ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+body > section > .main > .content > ul > li {
+  padding: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f0f2f7;
+}
+body > section > .main > .content > ul > li > h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+body > section > .main > .content > ul > li > .img-text {
+  display: flex;
+  margin: 16px 0 4px;
+}
+body > section > .main > .content > ul > li > .img-text > .text {
+  margin-top: 9px;
+  font-size: 0;
+  display: inline-block;
+  position: relative;
+  flex: 1;
+}
+body > section > .main > .content > ul > li > .img-text > .text > span {
+  margin: 0;
+  line-height: 1.6;
+  word-break: break-word;
+  font-size: 15px;
+}
+body > section > .main > .content > ul > li > .img-text > .text > a {
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 4px;
+  text-decoration: none;
+  color: #175199;
+}
+body > section > .main > .content > ul > li > .img-text > .text > svg {
+  position: absolute;
+  bottom: 0;
+  color: #175199;
+}
+body > section > .main > .content > ul > li > .img-text > .img {
+  flex: 0 0 auto;
+  border-radius: 4px;
+  margin-right: 18px;
+  width: 190px;
+  height: 105px;
+  background-color: #333;
+}
+body > section > .main > .content > ul > li > .text {
+  margin-top: 9px;
+  font-size: 0;
+  display: inline-block;
+  position: relative;
+}
+body > section > .main > .content > ul > li > .text > span {
+  margin: 0;
+  line-height: 1.6;
+  word-break: break-word;
+  font-size: 15px;
+}
+body > section > .main > .content > ul > li > .text > a {
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 4px;
+  text-decoration: none;
+  color: #175199;
+}
+body > section > .main > .content > ul > li > .text > svg {
+  position: absolute;
+  bottom: 0;
+  color: #175199;
+}
+body > section > .main > .content > ul > li > .bottom {
+  display: flex;
+  padding: 10px 20px;
+  margin: 0 -20px -14px;
+}
+body > section > .main > .content > ul > li > .bottom .left > * {
+  border: 1px solid transparent;
+  color: #0084ff;
+  background-color: #e5f3ff;
+  line-height: 30px;
+  padding: 0 12px;
+  outline: none;
+  font-size: 14px;
+  border-radius: 3px;
+  flex: 1;
+}
+body > section > .main > .content > ul > li > .bottom .left .down {
+  margin-left: 4px;
+}
+body > section > .main > .content > ul > li > .bottom > .right {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+body > section > .main > .content > ul > li > .bottom > .right > button {
+  font-size: 14px;
+  background-color: #fff;
+  color: #8590a6;
+  border: none;
+  outline: none;
+  margin-left: 24px;
+  display: flex;
+  padding: 0;
+  cursor: pointer;
+}
+body > section > .main > .content > ul > li > .bottom > .right > button > * {
+  font-size: 14px;
+}
+body > section > .main > .content > ul > li > .bottom > .right > button > span {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+}
+body > section > .main > .content > ul > li > .bottom > .right > button > .icon {
+  display: inline-flex;
+  align-items: center;
+  flex: 1;
+}
+body > section > .main > .content > ul > li > .bottom > .right > button > .icon > svg {
+  margin-right: 4px;
+}
+body > section > .main > .content > ul > li > .bottom > .right > button:hover {
+  color: #0084ff;
+}
+body > section > .main > .content > ul > li > .bottom > .right > .comment-btn {
+  flex: 2;
+}
+body > section > .main > .content > ul > li > .comment {
+  display: block;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border: 1px solid #ebebeb;
+  box-shadow: 0 1px 3px rgba(26, 26, 26, 0.1);
+}
+body > section > .main > .content > ul > li > .comment > .comment-content > ul {
+  padding: 0;
+}
+body > section > .main > .content > ul > li > .comment > .comment-content > ul > * {
+  border-bottom: 1px solid #f0f2f7;
+}
+body > section > .main > .content > ul > li > .comment > .comment-content > ul > * > .warp {
+  margin: 12px 20px 10px 20px;
+}
+body > section > .main > .content > ul > li > .comment > .comment-content > ul > * > .warp > .top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+body > section > .main > .content > ul > li > .comment > .comment-content > ul > * > .warp > .top > .user-img {
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  margin-right: 8px;
+}
+body > section > .main > .content > ul > li > .comment > .comment-content > ul > * > .warp > .top > .user-name {
+  flex: 1;
+  font-size: 15px;
+  line-height: 24px;
+}
+body > section > .main > .content > ul > li > .comment > .comment-content > ul > * > .warp > .top > .comment-date {
+  flex: 0 0 auto;
+  font-size: 14px;
+  color: #8590a6;
+}
+body > section > .main > .content > ul > li > .comment > .comment-content > ul > * > .warp > .comment-text {
+  font-size: 15px;
+  word-wrap: break-word;
+  line-height: 1.6;
+  padding-left: 33px;
+  margin-bottom: 10px;
+}
+body > section > .main > .content > ul > li > .comment > .comment-content > ul > * > .warp > .comment-features {
+  padding-left: 33px;
+  font-size: 14px;
+  height: 24px;
+  display: flex;
+}
+body > section > .main > .content > ul > li > .comment > .comment-content > ul > * > .warp > .comment-features > * {
+  flex: 0 0 auto;
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #8590a6;
+  padding: 0;
+  margin-right: 20px;
+  cursor: pointer;
+}
+body > section > .main > .content > ul > li > .comment > .comment-content > ul > * > .warp > .comment-features > * > svg {
+  display: inline-flex;
+}
+body > section > .main > .content > ul > li > .comment > .comment-content > ul > * > .warp > .comment-features > .hover-btn {
+  display: none;
+}
+body > section > .main > .content > ul > li > .comment > .comment-content > ul > * > .warp > .comment-features:hover > .hover-btn {
+  display: flex;
+}
+body > section > .main > .content > ul > li > .comment > .comment-content > ul > .sub-comment > .warp {
+  margin-left: 53px;
+}
+body > section > .main > .content > ul > li > .comment > .comment-content > ul > .sub-comment span {
+  color: #8590a6;
+}
+body > section > .main > .content > ul > li > .comment > .top {
+  padding: 0 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+body > section > .main > .content > ul > li > .comment > .top > .title {
+  flex: 1;
+  font-size: 15px;
+  font-weight: 600;
+}
+body > section > .main > .content > ul > li > .comment > .top > .sort {
+  font-size: 14px;
+  flex: 0 0 auto;
+  justify-content: end;
+  color: #8590a6;
+}
+body > section > .main > .content > ul > li > .comment > .subtitle {
+  font-size: 14px;
+  padding: 10px 20px;
+  background-color: #f6f6f6;
+  color: grey;
+  font-weight: 600;
+}
+body > section > .main > .content > ul > li > .comment > .page {
+  height: 20px;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body > section > .main > .content > ul > li > .comment > .page > * {
+  font-size: 14px;
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0 15px;
+  line-height: 20px;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+body > section > .main > .content > ul > li > .comment > .footer {
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ebebeb;
+}
+body > section > .main > .content > ul > li > .comment > .footer > .comment-input {
+  flex: 1;
+  height: 36px;
+  display: flex;
+  padding: 6px 12px;
+  align-items: center;
+  box-sizing: border-box;
+  border: solid 1px #8590a6;
+  border-radius: 3px;
+}
+body > section > .main > .content > ul > li > .comment > .footer > .comment-input > input {
+  flex: 1;
+  height: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #8f96ab;
+}
+body > section > .main > .content > ul > li > .comment > .footer > .submit {
+  height: 34px;
+  width: 28px;
+  padding: 0 12px;
+  flex: 0 0 auto;
+  font-size: 14px;
+  color: #fff;
+  background-color: #0084ff;
+  box-sizing: unset;
+  border: 1px solid #0084ff;
+  border-radius: 3px;
+  margin-left: 25px;
+}
+body > section > .card {
+  width: 296px;
+}
+body > section > .card > * {
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+body > section > .card > .features {
+  display: flex;
+  flex-direction: column;
+}
+body > section > .card > .features > .top {
+  padding: 20px 15px;
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+}
+body > section > .card > .features > .top > a {
+  flex: 1;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+body > section > .card > .features > .top > a > .text {
+  font-size: 12px;
+}
+body > section > .card > .features > .top > a > svg {
+  margin-bottom: 12px;
+}
+body > section > .card > .features > .bottom {
+  flex: 1;
+  display: flex;
+  border-top: 1px solid #f6f6f6;
+}
+body > section > .card > .features > .bottom > * {
+  flex: 1;
+  display: flex;
+}
+body > section > .card > .features > .bottom > * > a {
+  flex: 1;
+  font-size: 14px;
+  text-decoration: none;
+  color: #8590a6;
+  text-align: center;
+  padding: 16px 0;
+}
+body > section > .card > .features > .bottom > div:first-child {
+  border-right: 1px solid #f6f6f6;
+}
+body > section > .card > .data > a {
+  display: flex;
+  flex-direction: column;
+  padding: 0 17px;
+  text-decoration: none;
+  color: #8590a6;
+}
+body > section > .card > .data > a > .top {
+  height: 52px;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+}
+body > section > .card > .data > a > .top > .mid-text {
+  font-size: 14px;
+  flex: 1;
+  margin-left: 3px;
+}
+body > section > .card > .data > a > .top > .mid-text > span {
+  margin-left: 8px;
+  color: #0084ff;
+}
+body > section > .card > .data > a > .top > svg:first-child {
+  margin-left: 3px;
+}
+body > section > .card > .data > a > .top > svg:last-child {
+  margin-left: 4px;
+}
+body > section > .card > .data > a > .mid {
+  padding: 20px 0;
+  flex: 1;
+  display: flex;
+  border-top: 1px solid #f6f6f6;
+  border-bottom: 1px solid #f6f6f6;
+}
+body > section > .card > .data > a > .mid > * {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+body > section > .card > .data > a > .mid > * > div {
+  font-size: 12px;
+  text-align: center;
+  line-height: 22px;
+}
+body > section > .card > .data > a > .mid > * > .num {
+  font-size: 18px;
+  color: #444;
+  line-height: 28px;
+  font-weight: 600;
+}
+body > section > .card > .data > a > .mid > .left {
+  border-right: 1px solid #ebebeb;
+}
+body > section > .card > .data > a .bottom {
+  padding: 10px 8px;
+  display: flex;
+  align-items: center;
+}
+body > section > .card > .data > a .bottom > .text {
+  font-size: 12px;
+  color: #8590a6;
+}
+body > section > .card > .data > a .bottom svg {
+  margin-left: 4px;
+}
+body > section > .card > .nav {
+  display: flex;
+  flex-direction: column;
+}
+body > section > .card > .nav > .top-ad {
+  flex: 1;
+}
+body > section > .card > .nav > .content {
+  padding: 20px 10px 0;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+body > section > .card > .nav > .content > a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  width: 33%;
+  flex: 0 0 auto;
+  margin-bottom: 25px;
+}
+body > section > .card > .nav > .content > a > .name {
+  font-size: 14px;
+  color: #8590a6;
+}
+body > section > .card > .nav > .content > a > svg {
+  margin-bottom: 10px;
+}
+body > section > .card > .nav > .content > .live > svg {
+  color: #ffcf00;
+}
+body > section > .card > .nav > .content > .book > svg {
+  color: #43d480;
+}
+body > section > .card > .nav > .content > .org > svg {
+  color: #0084ff;
+}
+body > section > .card > .nav > .content > .edit > svg {
+  color: #0f88eb;
+}
+body > section > .card > .nav > .content > .infinity > svg {
+  color: #5478f0;
+}
+body > section > .card > .nav > .content > .base > svg {
+  color: #5868d1;
+}
+body > section > .card > .user-nav > ul {
+  padding: 10px 0 0 0;
+  margin: 0;
+}
+body > section > .card > .user-nav > ul > li {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+body > section > .card > .user-nav > ul > li > a {
+  flex: 1;
+  display: flex;
+  text-decoration: none;
+  padding: 0 20px;
+}
+body > section > .card > .user-nav > ul > li > a > * {
+  color: #8590a6;
+}
+body > section > .card > .user-nav > ul > li > a > .name {
+  font-size: 14px;
+  margin: 0 10px;
+  flex: 1;
+}
+body > section > .card > .user-nav > ul > li > a > .num {
+  padding: 6px 10px;
+  font-size: 14px;
+  flex: 0 0 auto;
+  background-color: #f6f6f6;
+}
+body > section > .card > .user-nav > ul > li > a > svg {
+  flex: 0 0 auto;
+}
+body > section > .card > .footer {
+  background-color: #f6f6f6;
+}
+body > section > .card > .footer > ul {
+  padding: 0;
+}
+body > section > .card > .footer > ul > li {
+  font-size: 0;
+  vertical-align: top;
+  padding-left: 5px;
+}
+body > section > .card > .footer > ul > li > * {
+  display: inline-block;
+}
+body > section > .card > .footer > ul > li * {
+  font-size: 13px;
+  text-decoration: none;
+  color: #8590a6;
+  line-height: 2;
+}
+body > section > .card > .footer > ul > li span {
+  margin: 0 5px;
+}
+body > section > .card > .footer > ul > li span::after {
+  content: "\B7";
+}
