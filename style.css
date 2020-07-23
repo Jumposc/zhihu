@@ -200,7 +200,6 @@ body > section > .main > .content > ul > li > .img-text > .text {
   font-size: 0;
   display: inline-block;
   position: relative;
-  flex: 1;
 }
 body > section > .main > .content > ul > li > .img-text > .text > span {
   margin: 0;
@@ -227,30 +226,6 @@ body > section > .main > .content > ul > li > .img-text > .img {
   width: 190px;
   height: 105px;
   background-color: #333;
-}
-body > section > .main > .content > ul > li > .text {
-  margin-top: 9px;
-  font-size: 0;
-  display: inline-block;
-  position: relative;
-}
-body > section > .main > .content > ul > li > .text > span {
-  margin: 0;
-  line-height: 1.6;
-  word-break: break-word;
-  font-size: 15px;
-}
-body > section > .main > .content > ul > li > .text > a {
-  display: inline-block;
-  font-size: 14px;
-  margin-left: 4px;
-  text-decoration: none;
-  color: #175199;
-}
-body > section > .main > .content > ul > li > .text > svg {
-  position: absolute;
-  bottom: 0;
-  color: #175199;
 }
 body > section > .main > .content > ul > li > .bottom {
   display: flex;
@@ -286,6 +261,9 @@ body > section > .main > .content > ul > li > .bottom > .right > button {
   display: flex;
   padding: 0;
   cursor: pointer;
+}
+body > section > .main > .content > ul > li > .bottom > .right > button * {
+  pointer-events: none;
 }
 body > section > .main > .content > ul > li > .bottom > .right > button > * {
   font-size: 14px;

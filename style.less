@@ -226,8 +226,31 @@ body {
                             margin : 16px 0 4px;
 
                             >.text {
-                                .text();
-                                flex: 1;
+                                margin-top: 9px;
+                                font-size : 0;
+                                display   : inline-block;
+                                position  : relative;
+    
+                                >span {
+                                    margin     : 0;
+                                    line-height: 1.6;
+                                    word-break : break-word;
+                                    font-size  : 15px;
+                                }
+    
+                                >a {
+                                    display        : inline-block;
+                                    font-size      : 14px;
+                                    margin-left    : 4px;
+                                    text-decoration: none;
+                                    color          : #175199;
+                                }
+    
+                                >svg {
+                                    position: absolute;
+                                    bottom  : 0;
+                                    color   : #175199;
+                                }
                             }
 
                             >.img {
@@ -240,33 +263,7 @@ body {
                             }
                         }
 
-                        >.text {
-                            margin-top: 9px;
-                            font-size : 0;
-                            display   : inline-block;
-                            position  : relative;
-
-                            >span {
-                                margin     : 0;
-                                line-height: 1.6;
-                                word-break : break-word;
-                                font-size  : 15px;
-                            }
-
-                            >a {
-                                display        : inline-block;
-                                font-size      : 14px;
-                                margin-left    : 4px;
-                                text-decoration: none;
-                                color          : #175199;
-                            }
-
-                            >svg {
-                                position: absolute;
-                                bottom  : 0;
-                                color   : #175199;
-                            }
-                        }
+                        
 
                         >.bottom {
                             display: flex;
@@ -306,7 +303,9 @@ body {
                                     display         : flex;
                                     padding         : 0;
                                     cursor          : pointer;
-
+                                    *{
+                                        pointer-events: none;
+                                    }
                                     >* {
                                         font-size: 14px;
                                     }
