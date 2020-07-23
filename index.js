@@ -6,51 +6,63 @@ let Article = [
         type: 'article',
         imgUrl: '',
         articlePraiseNum: 233,
+        isPraiseArticle:false,
         commentNum: 4,
         commentData: {
             isShow: false,
+            sortType:'default',
             commentList: [
                 {
                     type: 'root-comment',
                     userName: 'zzzzzz',
                     userImgUrl: "./images/user.jpg",
-                    commentdate: '2019-10-20',
-                    text: '嗯嗯，我山东新高考考生，物理实在是太难了简直要了我的命[大哭][大哭]只能好好研究志愿填报了[捂脸][捂脸]',
-                    commentPraiseNum: 15
+                    commentDate: '2020-01-20',
+                    text: '11111111111111111111',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:1
                 },
                 {
                     type: 'root-comment',
                     userName: 'zzzzzz',
                     userImgUrl: "./images/user.jpg",
-                    commentdate: '2019-10-20',
-                    text: '嗯嗯，我山东新高考考生，物理实在是太难了简直要了我的命[大哭][大哭]只能好好研究志愿填报了[捂脸][捂脸]',
-                    commentPraiseNum: 15
+                    commentDate: '2021-11-20',
+                    text: '2222222222222222222222222222',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:2
                 },
                 {
                     type: 'sub-comment',
                     userName: 'zzzzzz',
                     replyUser:'iiooie',
                     userImgUrl: "./images/user.jpg",
-                    commentdate: '2019-10-20',
-                    text: '嗯嗯，我山东新高考考生，物理实在是太难了简直要了我的命[大哭][大哭]只能好好研究志愿填报了[捂脸][捂脸]',
-                    commentPraiseNum: 15
+                    commentDate: '2019-10-22',
+                    text: '333333333333333333333333333',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:3
                 },
                 {
                     type: 'sub-comment',
                     userName: 'zzzzzz',
                     replyUser:'iiooie',
                     userImgUrl: "./images/user.jpg",
-                    commentdate: '2019-10-20',
-                    text: '嗯嗯，我山东新高考考生，物理实在是太难了简直要了我的命[大哭][大哭]只能好好研究志愿填报了[捂脸][捂脸]',
-                    commentPraiseNum: 15
+                    commentDate: '2019-01-20',
+                    text: '555555555555555',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:3
                 },
                 {
                     type: 'root-comment',
                     userName: 'zzzzzz',
                     userImgUrl: "./images/user.jpg",
-                    commentdate: '2019-10-20',
-                    text: '嗯嗯，我山东新高考考生，物理实在是太难了简直要了我的命[大哭][大哭]只能好好研究志愿填报了[捂脸][捂脸]',
-                    commentPraiseNum: 15
+                    commentDate: '2019-02-20',
+                    text: '2222222222222222222222222222',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:4
                 }
             ]
         },
@@ -62,51 +74,63 @@ let Article = [
         type: 'article',
         imgUrl: '',
         articlePraiseNum: 233,
+        isPraiseArticle:false,
         commentNum: 4,
         commentData: {
             isShow: false,
+            sortType:'default',
             commentList: [
                 {
                     type: 'root-comment',
                     userName: 'zzzzzz',
                     userImgUrl: "./images/user.jpg",
-                    commentdate: '2019-10-20',
-                    text: '嗯嗯，我山东新高考考生，物理实在是太难了简直要了我的命[大哭][大哭]只能好好研究志愿填报了[捂脸][捂脸]',
-                    commentPraiseNum: 15
+                    commentDate: '2020-01-20',
+                    text: '11111111111111111111',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:1
                 },
                 {
                     type: 'root-comment',
                     userName: 'zzzzzz',
                     userImgUrl: "./images/user.jpg",
-                    commentdate: '2019-10-20',
-                    text: '嗯嗯，我山东新高考考生，物理实在是太难了简直要了我的命[大哭][大哭]只能好好研究志愿填报了[捂脸][捂脸]',
-                    commentPraiseNum: 15
+                    commentDate: '2021-11-20',
+                    text: '2222222222222222222222222222',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:2
                 },
                 {
                     type: 'sub-comment',
                     userName: 'zzzzzz',
                     replyUser:'iiooie',
                     userImgUrl: "./images/user.jpg",
-                    commentdate: '2019-10-20',
-                    text: '嗯嗯，我山东新高考考生，物理实在是太难了简直要了我的命[大哭][大哭]只能好好研究志愿填报了[捂脸][捂脸]',
-                    commentPraiseNum: 15
+                    commentDate: '2019-10-22',
+                    text: '333333333333333333333333333',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:3
                 },
                 {
                     type: 'sub-comment',
                     userName: 'zzzzzz',
                     replyUser:'iiooie',
                     userImgUrl: "./images/user.jpg",
-                    commentdate: '2019-10-20',
-                    text: '嗯嗯，我山东新高考考生，物理实在是太难了简直要了我的命[大哭][大哭]只能好好研究志愿填报了[捂脸][捂脸]',
-                    commentPraiseNum: 15
+                    commentDate: '2019-01-20',
+                    text: '555555555555555',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:3
                 },
                 {
                     type: 'root-comment',
                     userName: 'zzzzzz',
                     userImgUrl: "./images/user.jpg",
-                    commentdate: '2019-10-20',
-                    text: '嗯嗯，我山东新高考考生，物理实在是太难了简直要了我的命[大哭][大哭]只能好好研究志愿填报了[捂脸][捂脸]',
-                    commentPraiseNum: 15
+                    commentDate: '2019-02-20',
+                    text: '2222222222222222222222222222',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:4
                 }
             ]
         },
@@ -118,51 +142,63 @@ let Article = [
         type: 'article',
         imgUrl: '',
         articlePraiseNum: 233,
+        isPraiseArticle:false,
         commentNum: 4,
         commentData: {
             isShow: false,
+            sortType:'default',
             commentList: [
                 {
                     type: 'root-comment',
                     userName: 'zzzzzz',
                     userImgUrl: "./images/user.jpg",
-                    commentdate: '2019-10-20',
-                    text: '嗯嗯，我山东新高考考生，物理实在是太难了简直要了我的命[大哭][大哭]只能好好研究志愿填报了[捂脸][捂脸]',
-                    commentPraiseNum: 15
+                    commentDate: '2020-01-20',
+                    text: '11111111111111111111',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:1
                 },
                 {
                     type: 'root-comment',
                     userName: 'zzzzzz',
                     userImgUrl: "./images/user.jpg",
-                    commentdate: '2019-10-20',
-                    text: '嗯嗯，我山东新高考考生，物理实在是太难了简直要了我的命[大哭][大哭]只能好好研究志愿填报了[捂脸][捂脸]',
-                    commentPraiseNum: 15
+                    commentDate: '2021-11-20',
+                    text: '2222222222222222222222222222',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:2
                 },
                 {
                     type: 'sub-comment',
                     userName: 'zzzzzz',
                     replyUser:'iiooie',
                     userImgUrl: "./images/user.jpg",
-                    commentdate: '2019-10-20',
-                    text: '嗯嗯，我山东新高考考生，物理实在是太难了简直要了我的命[大哭][大哭]只能好好研究志愿填报了[捂脸][捂脸]',
-                    commentPraiseNum: 15
+                    commentDate: '2019-10-22',
+                    text: '333333333333333333333333333',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:3
                 },
                 {
                     type: 'sub-comment',
                     userName: 'zzzzzz',
                     replyUser:'iiooie',
                     userImgUrl: "./images/user.jpg",
-                    commentdate: '2019-10-20',
-                    text: '嗯嗯，我山东新高考考生，物理实在是太难了简直要了我的命[大哭][大哭]只能好好研究志愿填报了[捂脸][捂脸]',
-                    commentPraiseNum: 15
+                    commentDate: '2019-01-20',
+                    text: '555555555555555',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:3
                 },
                 {
                     type: 'root-comment',
                     userName: 'zzzzzz',
                     userImgUrl: "./images/user.jpg",
-                    commentdate: '2019-10-20',
-                    text: '嗯嗯，我山东新高考考生，物理实在是太难了简直要了我的命[大哭][大哭]只能好好研究志愿填报了[捂脸][捂脸]',
-                    commentPraiseNum: 15
+                    commentDate: '2019-02-20',
+                    text: '2222222222222222222222222222',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:4
                 }
             ]
         },
@@ -174,51 +210,199 @@ let Article = [
         type: 'article',
         imgUrl: '',
         articlePraiseNum: 233,
+        isPraiseArticle:false,
         commentNum: 4,
         commentData: {
             isShow: false,
+            sortType:'default',
             commentList: [
                 {
                     type: 'root-comment',
                     userName: 'zzzzzz',
                     userImgUrl: "./images/user.jpg",
-                    commentdate: '2019-10-20',
-                    text: '嗯嗯，我山东新高考考生，物理实在是太难了简直要了我的命[大哭][大哭]只能好好研究志愿填报了[捂脸][捂脸]',
-                    commentPraiseNum: 15
+                    commentDate: '2020-01-20',
+                    text: '11111111111111111111',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:1
                 },
                 {
                     type: 'root-comment',
                     userName: 'zzzzzz',
                     userImgUrl: "./images/user.jpg",
-                    commentdate: '2019-10-20',
-                    text: '嗯嗯，我山东新高考考生，物理实在是太难了简直要了我的命[大哭][大哭]只能好好研究志愿填报了[捂脸][捂脸]',
-                    commentPraiseNum: 15
+                    commentDate: '2021-11-20',
+                    text: '2222222222222222222222222222',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:2
                 },
                 {
                     type: 'sub-comment',
                     userName: 'zzzzzz',
                     replyUser:'iiooie',
                     userImgUrl: "./images/user.jpg",
-                    commentdate: '2019-10-20',
-                    text: '嗯嗯，我山东新高考考生，物理实在是太难了简直要了我的命[大哭][大哭]只能好好研究志愿填报了[捂脸][捂脸]',
-                    commentPraiseNum: 15
+                    commentDate: '2019-10-22',
+                    text: '333333333333333333333333333',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:3
                 },
                 {
                     type: 'sub-comment',
                     userName: 'zzzzzz',
                     replyUser:'iiooie',
                     userImgUrl: "./images/user.jpg",
-                    commentdate: '2019-10-20',
-                    text: '嗯嗯，我山东新高考考生，物理实在是太难了简直要了我的命[大哭][大哭]只能好好研究志愿填报了[捂脸][捂脸]',
-                    commentPraiseNum: 15
+                    commentDate: '2019-01-20',
+                    text: '555555555555555',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:3
                 },
                 {
                     type: 'root-comment',
                     userName: 'zzzzzz',
                     userImgUrl: "./images/user.jpg",
-                    commentdate: '2019-10-20',
-                    text: '嗯嗯，我山东新高考考生，物理实在是太难了简直要了我的命[大哭][大哭]只能好好研究志愿填报了[捂脸][捂脸]',
-                    commentPraiseNum: 15
+                    commentDate: '2019-02-20',
+                    text: '2222222222222222222222222222',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:4
+                }
+            ]
+        },
+    },
+    {
+        id: 5,
+        title: '美国政府要求中国 72 小时内关闭驻休斯敦总领事馆，释放了哪些信号？',
+        desc: '叶鱼： 大家也没必要在意这个“细思极恐”，词语贫瘠时代，已经成了知乎电视剧话题的提问风格，作为一部现代都市题材有啥可“细思极恐”的。我是把它当“值得注…',
+        type: 'article',
+        imgUrl: '',
+        articlePraiseNum: 233,
+        isPraiseArticle:false,
+        commentNum: 4,
+        commentData: {
+            isShow: false,
+            sortType:'default',
+            commentList: [
+                {
+                    type: 'root-comment',
+                    userName: 'zzzzzz',
+                    userImgUrl: "./images/user.jpg",
+                    commentDate: '2020-01-20',
+                    text: '11111111111111111111',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:1
+                },
+                {
+                    type: 'root-comment',
+                    userName: 'zzzzzz',
+                    userImgUrl: "./images/user.jpg",
+                    commentDate: '2021-11-20',
+                    text: '2222222222222222222222222222',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:2
+                },
+                {
+                    type: 'sub-comment',
+                    userName: 'zzzzzz',
+                    replyUser:'iiooie',
+                    userImgUrl: "./images/user.jpg",
+                    commentDate: '2019-10-22',
+                    text: '333333333333333333333333333',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:3
+                },
+                {
+                    type: 'sub-comment',
+                    userName: 'zzzzzz',
+                    replyUser:'iiooie',
+                    userImgUrl: "./images/user.jpg",
+                    commentDate: '2019-01-20',
+                    text: '555555555555555',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:3
+                },
+                {
+                    type: 'root-comment',
+                    userName: 'zzzzzz',
+                    userImgUrl: "./images/user.jpg",
+                    commentDate: '2019-02-20',
+                    text: '2222222222222222222222222222',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:4
+                }
+            ]
+        },
+    },
+    {
+        id: 6,
+        title: '美国政府要求中国 72 小时内关闭驻休斯敦总领事馆，释放了哪些信号？',
+        desc: '叶鱼： 大家也没必要在意这个“细思极恐”，词语贫瘠时代，已经成了知乎电视剧话题的提问风格，作为一部现代都市题材有啥可“细思极恐”的。我是把它当“值得注…',
+        type: 'article',
+        imgUrl: '',
+        articlePraiseNum: 233,
+        isPraiseArticle:false,
+        commentNum: 4,
+        commentData: {
+            isShow: false,
+            sortType:'default',
+            commentList: [
+                {
+                    type: 'root-comment',
+                    userName: 'zzzzzz',
+                    userImgUrl: "./images/user.jpg",
+                    commentDate: '2020-01-20',
+                    text: '11111111111111111111',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:1
+                },
+                {
+                    type: 'root-comment',
+                    userName: 'zzzzzz',
+                    userImgUrl: "./images/user.jpg",
+                    commentDate: '2021-11-20',
+                    text: '2222222222222222222222222222',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:2
+                },
+                {
+                    type: 'sub-comment',
+                    userName: 'zzzzzz',
+                    replyUser:'iiooie',
+                    userImgUrl: "./images/user.jpg",
+                    commentDate: '2019-10-22',
+                    text: '333333333333333333333333333',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:3
+                },
+                {
+                    type: 'sub-comment',
+                    userName: 'zzzzzz',
+                    replyUser:'iiooie',
+                    userImgUrl: "./images/user.jpg",
+                    commentDate: '2019-01-20',
+                    text: '555555555555555',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:3
+                },
+                {
+                    type: 'root-comment',
+                    userName: 'zzzzzz',
+                    userImgUrl: "./images/user.jpg",
+                    commentDate: '2019-02-20',
+                    text: '2222222222222222222222222222',
+                    commentPraiseNum: 15,
+                    isPraiseComment:false,
+                    index:4
                 }
             ]
         },
@@ -228,11 +412,19 @@ let Article = [
 function getArticles() {
     return Article;
 }
+//公用方法
+
+//更改样式
+function setStyle(el,styleobj){
+    for (key in styleobj){
+        el.style.setProperty(key,styleobj[key]);
+    }
+}
 //初始化文章列表
 function initArticleList(elem, data) {
     let li = document.createElement('li');
     showArticles(elem,li, data);
-    bindCommentEvent(li,getCommentsByArticleObj(data));
+    bindArticleFeaturesEvent(li,data);
     // window.onscroll = () =>{
     // }
     
@@ -247,7 +439,7 @@ function showArticles(elem,li, data) {
             <div class="text">
                 <span>${data.desc}</span>
                 <a href="">阅读全文</a>
-                <svg class="Zi Zi--ArrowDown ContentItem-arrowIcon" fill="currentColor"
+                <svg class="Zi Zi--ArrowunPraise ContentItem-arrowIcon" fill="currentColor"
                     viewBox="0 0 24 24" width="24" height="24">
                     <path
                         d="M12 13L8.285 9.218a.758.758 0 0 0-1.064 0 .738.738 0 0 0 0 1.052l4.249 4.512a.758.758 0 0 0 1.064 0l4.246-4.512a.738.738 0 0 0 0-1.052.757.757 0 0 0-1.063 0L12.002 13z"
@@ -257,14 +449,14 @@ function showArticles(elem,li, data) {
         </div>
         <div class="bottom">
             <div class="left">
-                <button class="up"><svg class="Zi Zi--TriangleUp VoteButton-TriangleUp"
+                <button class="praise"><svg class="Zi Zi--Trianglepraise VoteButton-Trianglepraise"
                     fill="currentColor" viewBox="0 0 24 24" width="10" height="10">
                     <path
                         d="M2 18.242c0-.326.088-.532.237-.896l7.98-13.203C10.572 3.57 11.086 3 12 3c.915 0 1.429.571 1.784 1.143l7.98 13.203c.15.364.236.57.236.896 0 1.386-.875 1.9-1.955 1.9H3.955c-1.08 0-1.955-.517-1.955-1.9z"
                         fill-rule="evenodd"></path>
                 </svg>
                             赞同 ${data.articlePraiseNum}</button>
-                <button class="down"><svg class="Zi Zi--TriangleDown" fill="currentColor"
+                <button class="unPraise"><svg class="Zi Zi--TriangleunPraise" fill="currentColor"
                     viewBox="0 0 24 24" width="10" height="10">
                     <path
                         d="M20.044 3H3.956C2.876 3 2 3.517 2 4.9c0 .326.087.533.236.896L10.216 19c.355.571.87 1.143 1.784 1.143s1.429-.572 1.784-1.143l7.98-13.204c.149-.363.236-.57.236-.896 0-1.386-.876-1.9-1.956-1.9z"
@@ -325,31 +517,88 @@ function showArticles(elem,li, data) {
     elem.append(li);
 }
 
-//绑定评论的事件
-function bindCommentEvent(elem,data) {
+//刷新赞图标
+function refreshPraise(el,type,data){
+    if(type === 'article'){
+        let praiseEl = el.querySelector('.bottom .left > .praise');
+        if(data.isPraiseArticle){
+            setStyle(praiseEl,{background:"#e5f3fe",padding:'0px 12px',color:"#0084ff"});
+            praiseEl.querySelector('span').innerHTML = `赞同 ${data.articlePraiseNum}`;
+        }else{
+            setStyle(praiseEl,{background:"#0084ff",padding:'0px 24px',color:"#fff"});
+            praiseEl.querySelector('span').innerHTML = `赞同 ${data.articlePraiseNum}`;
+        }
+    }else{
+        let praiseEl = el.querySelector('.comment > .comment-content > ul > li > .warp > .comment-features > .praise');
+        if(data.isPraiseArticle){
+            setStyle(praiseEl,{backgroundColor:"#0084ff",color:"#0084ff"});
+        }else{
+            setStyle(praiseEl,{backgroundColor:"#0084ff",color:"#fff"});
+        }
+    }
+}
+
+//绑定文章功能的事件
+function bindArticleFeaturesEvent(elem,data) {
     elem.addEventListener('click',(e)=>{
-        let commentBtn = elem.querySelector('.bottom > .right > .comment-btn');   
+        let commentBtn = elem.querySelector('.bottom > .right > .comment-btn'); 
+        let commentData = getCommentsByArticleObj(data);  
         if(e.currentTarget === elem && e.target === commentBtn){
-            if(data.isShow){
-                console.log(data);
-                closeComment(e.currentTarget,data);
-                data.isShow = false;
+            if(commentData.commentList.isShow){
+                closeComment(e.currentTarget,commentData);
+                commentData.commentList.isShow = false;
+                commentBtn.querySelector('.text').innerHTML = `${commentData.commentList.length} 条评论`;
             }else{
-                initComments(elem,data);
-                showComment(e.currentTarget,data);
-                data.isShow = true;
+                refreshComments(elem,commentData);
+                showComment(e.currentTarget,commentData);
+                commentData.commentList.isShow = true;
+                commentBtn.querySelector('.text').innerHTML = '收起评论';
+            }
+        }
+    });
+    
+    elem.addEventListener('click',(e) =>{
+        let sortBtn = elem.querySelector('.comment > .top > .sort');
+        let commentData = getCommentsByArticleObj(data); 
+        if(e.currentTarget === elem && e.target === sortBtn){
+            if(commentData.sortType === 'default'){
+                closeComment(elem,commentData);
+                let sortData =  sortByTime(commentData);
+                commentData.sortType = 'time';
+                refreshComments(elem,sortData);
+                showComment(elem,commentData);
+            }else{
+                closeComment(elem,commentData);
+                let sortData = sortByDefault(commentData);
+                commentData.sortType = 'default';
+                refreshComments(elem,sortData);
+                showComment(elem,commentData);
+            }
+        }
+    });
+    elem.addEventListener('click',(e) =>{
+        let praiseBtn = elem.querySelector('.bottom .left > .praise');
+        if(e.currentTarget === elem && e.target === praiseBtn){
+            if(data.isPraiseArticle){
+                data.articlePraiseNum -= 1;
+                refreshPraise(elem,'article',data);
+                data.isPraiseArticle = false;
+            }else{
+                data.articlePraiseNum += 1;
+                refreshPraise(elem,'article',data);
+                data.isPraiseArticle = true;
             }
         }
     })
 }
 
-//从每个文章中获取评论列表s
+//从每个文章中获取评论列表
 function getCommentsByArticleObj(articleObj) {
     return articleObj.commentData;
 }
 
-//创建初始评论
-function initComments(elem,data){
+//刷新评论
+function refreshComments(elem,data){
     if(elem.querySelector('.comment') != null){
         return;
     }
@@ -366,19 +615,19 @@ function initComments(elem,data){
         `<div class="top">
         <div class="title">${data.commentList.length}条评论</div>
         <div class="sort"><svg class="Zi Zi--Switch Button-zi" fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em"><path d="M13.004 7V4.232c0-.405.35-.733.781-.733.183 0 .36.06.501.17l6.437 5.033c.331.26.376.722.1 1.033a.803.803 0 0 1-.601.264H2.75a.75.75 0 0 1-.75-.75V7.75A.75.75 0 0 1 2.75 7h10.254zm-1.997 9.999v2.768c0 .405-.35.733-.782.733a.814.814 0 0 1-.5-.17l-6.437-5.034a.702.702 0 0 1-.1-1.032.803.803 0 0 1 .6-.264H21.25a.75.75 0 0 1 .75.75v1.499a.75.75 0 0 1-.75.75H11.007z" fill-rule="evenodd"></path></svg>
-        切换为时间排序</div>
+        ${data.sortType === 'default' ? '切换为时间排序':'切换为默认排序'}</div>
     </div>
         <div class="subtitle"><span class="text">评论（${data.commentList.length})</span></div>
         `;
     for (let i = 0; i < data.commentList.length; i++) {
         ul.innerHTML +=
             `
-                <li class="${data.commentList[i].type}">
+                <li class="${data.commentList[i].type} ${data.sortType === 'default' ? '':'sort-by-time'}">
                     <div class="warp">
                         <div class="top">
                             <img class="user-img" src="${data.commentList[i].userImgUrl}" />
-                            <div class="user-name">${data.commentList[i].userName}${data.commentList[i].type === 'root-comment' ? '':`<span>${data.commentList[i].replyUser}`}</span></div>
-                            <div class="comment-date">2020-8-1</div>
+                            <div class="user-name">${data.commentList[i].userName}${data.commentList[i].type === 'root-comment' ? '':`<span> 回复 </span>${data.commentList[i].replyUser}`}</div>
+                            <div class="comment-date">${data.commentList[i].commentDate}</div>
                         </div>
                         <div class="comment-text">${data.commentList[i].text}</div>
                         <div class="comment-features">
@@ -398,7 +647,7 @@ function initComments(elem,data){
                                     fill-rule="evenodd"></path>
                             </svg>
                                 回复</button>
-                            <button class="down hover-btn"><svg class="Zi Zi--Like" fill="currentColor"
+                            <button class="unPraise hover-btn"><svg class="Zi Zi--Like" fill="currentColor"
                                 viewBox="0 0 24 24" width="16" height="16"
                                 style="transform: rotate(180deg); margin-right: 5px;">
                                 <path
@@ -439,35 +688,42 @@ function initComments(elem,data){
 }
 
 //显示评论
-function showComment(el) {
-    el.querySelector('.comment').style.display = 'block';
-    el.querySelector('.bottom > .right > button > .text').innerHTML = '收起评论';
+function showComment(el,data) {
+    refreshComments(el,data);
 }
 
 //关闭评论
 function closeComment(el,data) {
-    console.log(data);
-    el.querySelector('.comment').style.display = 'none';
-    el.querySelector('.bottom > .right > button > .text').innerHTML = `${data.commentList.length} 条评论`;
+    el.querySelector('.comment').outerHTML = '';
 }
 
-function sortByTime(){
-
+//按照时间排序
+function sortByTime(data){
+    let sortData = data;
+    sortData.commentList.sort((a,b) => {
+        return a.commentDate > b.commentDate ? -1:1;
+    });
+    return sortData;
 }
-function sortByDefault(){
-    
+//按照默认排序
+function sortByDefault(data){
+    let sortData = data;
+    sortData.commentList.sort((a,b) => {
+        return a.index > b.index ? 1:-1;
+    });
+    return sortData;
 }
 
 
 
-let article = getArticles();
-let commentList = [];
+let articles = getArticles();
 let articleUl = document.querySelector('body > section > .main > .content > ul');
-article.forEach((value) => {
+let articleItem = [];
+articles.forEach((value) => {
     initArticleList(articleUl, value);
-    commentList.push(getCommentsByArticleObj(value));
-})
+    articleItem.push(value);
+});
 let articleLi = document.querySelectorAll('body > section > .main > .content > ul > li');
 articleLi.forEach((elem,index) =>{
-    bindCommentEvent(elem,commentList[index]);
-})
+    bindArticleFeaturesEvent(elem,articleItem[index]);
+});
