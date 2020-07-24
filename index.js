@@ -524,10 +524,10 @@ function addArticleFeaturesEvent(elem, data) {
         let unPraiseBtn = elem.querySelector('.bottom > .left > .unPraise');
         if (e.currentTarget === elem && e.target === unPraiseBtn) {
             if (data.isUnPraiseArticle) {
-                setStyle(unPraiseBtn, { background: "#0084ff", color: "#fff" });
+                setStyle(unPraiseBtn, { background: "#e5f3fe", color: "#0084ff" });
                 data.isUnPraiseArticle = false;
             } else {
-                setStyle(unPraiseBtn, { background: "#e5f3fe", color: "#0084ff" });
+                setStyle(unPraiseBtn, { background: "#0084ff", color: "#fff" });
                 data.isUnPraiseArticle = true;
             }
         }
