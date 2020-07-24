@@ -481,7 +481,7 @@ function addArticleFeaturesEvent(elem, data) {
                 refreshComments(e.currentTarget, commentData);
                 commentData.isShow = true;
                 commentBtn.querySelector('.text').innerHTML = '收起评论';
-                addCommentFeaturesEvent(elem,commentData);
+                addCommentFeaturesEvent(elem, commentData);
             }
         }
     });
@@ -495,13 +495,13 @@ function addArticleFeaturesEvent(elem, data) {
                 let sortData = sortByTime(commentData);
                 commentData.sortType = 'time';
                 refreshComments(elem, sortData);
-                addCommentFeaturesEvent(elem,commentData);
+                addCommentFeaturesEvent(elem, commentData);
             } else {
                 closeComment(elem, commentData);
                 let sortData = sortByDefault(commentData);
                 commentData.sortType = 'default';
                 refreshComments(elem, sortData);
-                addCommentFeaturesEvent(elem,commentData);
+                addCommentFeaturesEvent(elem, commentData);
             }
         }
     });
@@ -542,27 +542,36 @@ function addArticleFeaturesEvent(elem, data) {
 //绑定评论功能的事件
 function addCommentFeaturesEvent(elem, data) {
     let comments = elem.querySelectorAll('.comment > .comment-content > ul > li');
-    //点赞评论
-    comments.forEach((el,index)=>{
+
+    comments.forEach((el, index) => {
+        //点赞评论
         el.addEventListener('click', (e) => {
             let praiseBtn = el.querySelector('.warp > .comment-features > .praise');
             if (e.currentTarget === el && e.target === praiseBtn) {
-                if (data.isPraiseComment) {
+                if (data.commentList[index].isPraiseComment) {
                     setStyle(praiseBtn, { color: "#8590a6" });
                     data.commentList[index].commentPraiseNum -= 1;
-                    data.isPraiseComment = false;
+                    data.commentList[index].isPraiseComment = false;
                     praiseBtn.querySelector('span').innerHTML = `${data.commentList[index].commentPraiseNum}`;
                 } else {
                     setStyle(praiseBtn, { color: '#0084ff' });
                     data.commentList[index].commentPraiseNum += 1;
-                    data.isPraiseComment = true;
+                    data.commentList[index].isPraiseComment = true;
                     praiseBtn.querySelector('span').innerHTML = `${data.commentList[index].commentPraiseNum}`;
                 }
             }
         }
         );
-    })
-    
+        //检查点赞状态
+        let praiseBtn = el.querySelector('.warp > .comment-features > .praise');
+        if (data.commentList[index].isPraiseComment) {
+            setStyle(praiseBtn, { color: "#0084ff" });
+        } else {
+            setStyle(praiseBtn, { color: '#8590a6' });
+        }
+    }
+    )
+
 }
 
 //显示文章
