@@ -757,7 +757,6 @@ function refreshComments(elem, data) {
 
 let articles = getArticles();
 let articleUl = document.querySelector('body > section > .main > .content > ul');
-let articleItem = [];
 articles.forEach((value) => {
     initArticleList(articleUl, value);
 });
