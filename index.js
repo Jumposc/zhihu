@@ -6,11 +6,12 @@ let Article = [
         type: 'article',
         imgUrl: '',
         articlePraiseNum: 233,
-        isPraiseArticle:false,
+        isPraiseArticle: false,
+        isUnPraiseArticle: false,
         commentNum: 4,
         commentData: {
             isShow: false,
-            sortType:'default',
+            sortType: 'default',
             commentList: [
                 {
                     type: 'root-comment',
@@ -19,8 +20,8 @@ let Article = [
                     commentDate: '2020-01-20',
                     text: '11111111111111111111',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:1
+                    isPraiseComment: false,
+                    index: 1
                 },
                 {
                     type: 'root-comment',
@@ -29,30 +30,30 @@ let Article = [
                     commentDate: '2021-11-20',
                     text: '2222222222222222222222222222',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:2
+                    isPraiseComment: false,
+                    index: 2
                 },
                 {
                     type: 'sub-comment',
                     userName: 'zzzzzz',
-                    replyUser:'iiooie',
+                    replyUser: 'iiooie',
                     userImgUrl: "./images/user.jpg",
                     commentDate: '2019-10-22',
                     text: '333333333333333333333333333',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:3
+                    isPraiseComment: false,
+                    index: 3
                 },
                 {
                     type: 'sub-comment',
                     userName: 'zzzzzz',
-                    replyUser:'iiooie',
+                    replyUser: 'iiooie',
                     userImgUrl: "./images/user.jpg",
                     commentDate: '2019-01-20',
                     text: '555555555555555',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:3
+                    isPraiseComment: false,
+                    index: 3
                 },
                 {
                     type: 'root-comment',
@@ -61,24 +62,24 @@ let Article = [
                     commentDate: '2019-02-20',
                     text: '2222222222222222222222222222',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:4
+                    isPraiseComment: false,
+                    index: 4
                 }
             ]
         },
-    },
-    {
-        id: 2,
+    }, {
+        id: 1,
         title: '美国政府要求中国 72 小时内关闭驻休斯敦总领事馆，释放了哪些信号？',
         desc: '叶鱼： 大家也没必要在意这个“细思极恐”，词语贫瘠时代，已经成了知乎电视剧话题的提问风格，作为一部现代都市题材有啥可“细思极恐”的。我是把它当“值得注…',
         type: 'article',
         imgUrl: '',
         articlePraiseNum: 233,
-        isPraiseArticle:false,
+        isPraiseArticle: false,
+        isUnPraiseArticle: false,
         commentNum: 4,
         commentData: {
             isShow: false,
-            sortType:'default',
+            sortType: 'default',
             commentList: [
                 {
                     type: 'root-comment',
@@ -87,8 +88,8 @@ let Article = [
                     commentDate: '2020-01-20',
                     text: '11111111111111111111',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:1
+                    isPraiseComment: false,
+                    index: 1
                 },
                 {
                     type: 'root-comment',
@@ -97,30 +98,30 @@ let Article = [
                     commentDate: '2021-11-20',
                     text: '2222222222222222222222222222',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:2
+                    isPraiseComment: false,
+                    index: 2
                 },
                 {
                     type: 'sub-comment',
                     userName: 'zzzzzz',
-                    replyUser:'iiooie',
+                    replyUser: 'iiooie',
                     userImgUrl: "./images/user.jpg",
                     commentDate: '2019-10-22',
                     text: '333333333333333333333333333',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:3
+                    isPraiseComment: false,
+                    index: 3
                 },
                 {
                     type: 'sub-comment',
                     userName: 'zzzzzz',
-                    replyUser:'iiooie',
+                    replyUser: 'iiooie',
                     userImgUrl: "./images/user.jpg",
                     commentDate: '2019-01-20',
                     text: '555555555555555',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:3
+                    isPraiseComment: false,
+                    index: 3
                 },
                 {
                     type: 'root-comment',
@@ -129,24 +130,24 @@ let Article = [
                     commentDate: '2019-02-20',
                     text: '2222222222222222222222222222',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:4
+                    isPraiseComment: false,
+                    index: 4
                 }
             ]
         },
-    },
-    {
-        id: 3,
+    }, {
+        id: 1,
         title: '美国政府要求中国 72 小时内关闭驻休斯敦总领事馆，释放了哪些信号？',
         desc: '叶鱼： 大家也没必要在意这个“细思极恐”，词语贫瘠时代，已经成了知乎电视剧话题的提问风格，作为一部现代都市题材有啥可“细思极恐”的。我是把它当“值得注…',
         type: 'article',
         imgUrl: '',
         articlePraiseNum: 233,
-        isPraiseArticle:false,
+        isPraiseArticle: false,
+        isUnPraiseArticle: false,
         commentNum: 4,
         commentData: {
             isShow: false,
-            sortType:'default',
+            sortType: 'default',
             commentList: [
                 {
                     type: 'root-comment',
@@ -155,8 +156,8 @@ let Article = [
                     commentDate: '2020-01-20',
                     text: '11111111111111111111',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:1
+                    isPraiseComment: false,
+                    index: 1
                 },
                 {
                     type: 'root-comment',
@@ -165,30 +166,30 @@ let Article = [
                     commentDate: '2021-11-20',
                     text: '2222222222222222222222222222',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:2
+                    isPraiseComment: false,
+                    index: 2
                 },
                 {
                     type: 'sub-comment',
                     userName: 'zzzzzz',
-                    replyUser:'iiooie',
+                    replyUser: 'iiooie',
                     userImgUrl: "./images/user.jpg",
                     commentDate: '2019-10-22',
                     text: '333333333333333333333333333',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:3
+                    isPraiseComment: false,
+                    index: 3
                 },
                 {
                     type: 'sub-comment',
                     userName: 'zzzzzz',
-                    replyUser:'iiooie',
+                    replyUser: 'iiooie',
                     userImgUrl: "./images/user.jpg",
                     commentDate: '2019-01-20',
                     text: '555555555555555',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:3
+                    isPraiseComment: false,
+                    index: 3
                 },
                 {
                     type: 'root-comment',
@@ -197,24 +198,24 @@ let Article = [
                     commentDate: '2019-02-20',
                     text: '2222222222222222222222222222',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:4
+                    isPraiseComment: false,
+                    index: 4
                 }
             ]
         },
-    },
-    {
-        id: 4,
+    }, {
+        id: 1,
         title: '美国政府要求中国 72 小时内关闭驻休斯敦总领事馆，释放了哪些信号？',
         desc: '叶鱼： 大家也没必要在意这个“细思极恐”，词语贫瘠时代，已经成了知乎电视剧话题的提问风格，作为一部现代都市题材有啥可“细思极恐”的。我是把它当“值得注…',
         type: 'article',
         imgUrl: '',
         articlePraiseNum: 233,
-        isPraiseArticle:false,
+        isPraiseArticle: false,
+        isUnPraiseArticle: false,
         commentNum: 4,
         commentData: {
             isShow: false,
-            sortType:'default',
+            sortType: 'default',
             commentList: [
                 {
                     type: 'root-comment',
@@ -223,8 +224,8 @@ let Article = [
                     commentDate: '2020-01-20',
                     text: '11111111111111111111',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:1
+                    isPraiseComment: false,
+                    index: 1
                 },
                 {
                     type: 'root-comment',
@@ -233,30 +234,30 @@ let Article = [
                     commentDate: '2021-11-20',
                     text: '2222222222222222222222222222',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:2
+                    isPraiseComment: false,
+                    index: 2
                 },
                 {
                     type: 'sub-comment',
                     userName: 'zzzzzz',
-                    replyUser:'iiooie',
+                    replyUser: 'iiooie',
                     userImgUrl: "./images/user.jpg",
                     commentDate: '2019-10-22',
                     text: '333333333333333333333333333',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:3
+                    isPraiseComment: false,
+                    index: 3
                 },
                 {
                     type: 'sub-comment',
                     userName: 'zzzzzz',
-                    replyUser:'iiooie',
+                    replyUser: 'iiooie',
                     userImgUrl: "./images/user.jpg",
                     commentDate: '2019-01-20',
                     text: '555555555555555',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:3
+                    isPraiseComment: false,
+                    index: 3
                 },
                 {
                     type: 'root-comment',
@@ -265,24 +266,24 @@ let Article = [
                     commentDate: '2019-02-20',
                     text: '2222222222222222222222222222',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:4
+                    isPraiseComment: false,
+                    index: 4
                 }
             ]
         },
-    },
-    {
-        id: 5,
+    }, {
+        id: 1,
         title: '美国政府要求中国 72 小时内关闭驻休斯敦总领事馆，释放了哪些信号？',
         desc: '叶鱼： 大家也没必要在意这个“细思极恐”，词语贫瘠时代，已经成了知乎电视剧话题的提问风格，作为一部现代都市题材有啥可“细思极恐”的。我是把它当“值得注…',
         type: 'article',
         imgUrl: '',
         articlePraiseNum: 233,
-        isPraiseArticle:false,
+        isPraiseArticle: false,
+        isUnPraiseArticle: false,
         commentNum: 4,
         commentData: {
             isShow: false,
-            sortType:'default',
+            sortType: 'default',
             commentList: [
                 {
                     type: 'root-comment',
@@ -291,8 +292,8 @@ let Article = [
                     commentDate: '2020-01-20',
                     text: '11111111111111111111',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:1
+                    isPraiseComment: false,
+                    index: 1
                 },
                 {
                     type: 'root-comment',
@@ -301,30 +302,30 @@ let Article = [
                     commentDate: '2021-11-20',
                     text: '2222222222222222222222222222',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:2
+                    isPraiseComment: false,
+                    index: 2
                 },
                 {
                     type: 'sub-comment',
                     userName: 'zzzzzz',
-                    replyUser:'iiooie',
+                    replyUser: 'iiooie',
                     userImgUrl: "./images/user.jpg",
                     commentDate: '2019-10-22',
                     text: '333333333333333333333333333',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:3
+                    isPraiseComment: false,
+                    index: 3
                 },
                 {
                     type: 'sub-comment',
                     userName: 'zzzzzz',
-                    replyUser:'iiooie',
+                    replyUser: 'iiooie',
                     userImgUrl: "./images/user.jpg",
                     commentDate: '2019-01-20',
                     text: '555555555555555',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:3
+                    isPraiseComment: false,
+                    index: 3
                 },
                 {
                     type: 'root-comment',
@@ -333,24 +334,24 @@ let Article = [
                     commentDate: '2019-02-20',
                     text: '2222222222222222222222222222',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:4
+                    isPraiseComment: false,
+                    index: 4
                 }
             ]
         },
-    },
-    {
-        id: 6,
+    }, {
+        id: 1,
         title: '美国政府要求中国 72 小时内关闭驻休斯敦总领事馆，释放了哪些信号？',
         desc: '叶鱼： 大家也没必要在意这个“细思极恐”，词语贫瘠时代，已经成了知乎电视剧话题的提问风格，作为一部现代都市题材有啥可“细思极恐”的。我是把它当“值得注…',
         type: 'article',
         imgUrl: '',
         articlePraiseNum: 233,
-        isPraiseArticle:false,
+        isPraiseArticle: false,
+        isUnPraiseArticle: false,
         commentNum: 4,
         commentData: {
             isShow: false,
-            sortType:'default',
+            sortType: 'default',
             commentList: [
                 {
                     type: 'root-comment',
@@ -359,8 +360,8 @@ let Article = [
                     commentDate: '2020-01-20',
                     text: '11111111111111111111',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:1
+                    isPraiseComment: false,
+                    index: 1
                 },
                 {
                     type: 'root-comment',
@@ -369,30 +370,30 @@ let Article = [
                     commentDate: '2021-11-20',
                     text: '2222222222222222222222222222',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:2
+                    isPraiseComment: false,
+                    index: 2
                 },
                 {
                     type: 'sub-comment',
                     userName: 'zzzzzz',
-                    replyUser:'iiooie',
+                    replyUser: 'iiooie',
                     userImgUrl: "./images/user.jpg",
                     commentDate: '2019-10-22',
                     text: '333333333333333333333333333',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:3
+                    isPraiseComment: false,
+                    index: 3
                 },
                 {
                     type: 'sub-comment',
                     userName: 'zzzzzz',
-                    replyUser:'iiooie',
+                    replyUser: 'iiooie',
                     userImgUrl: "./images/user.jpg",
                     commentDate: '2019-01-20',
                     text: '555555555555555',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:3
+                    isPraiseComment: false,
+                    index: 3
                 },
                 {
                     type: 'root-comment',
@@ -401,37 +402,172 @@ let Article = [
                     commentDate: '2019-02-20',
                     text: '2222222222222222222222222222',
                     commentPraiseNum: 15,
-                    isPraiseComment:false,
-                    index:4
+                    isPraiseComment: false,
+                    index: 4
                 }
             ]
         },
     },
 ]
+
+//更改样式
+function setStyle(el, styleobj) {
+    for (key in styleobj) {
+        el.style.setProperty(key, styleobj[key]);
+    }
+}
+
+//关闭评论
+function closeComment(el, data) {
+    console.log('调用关闭');
+    let comment = el.querySelector('.comment')
+    el.removeChild(comment);
+}
+
+//按照时间排序
+function sortByTime(data) {
+    let sortData = data;
+    sortData.commentList.sort((a, b) => {
+        return a.commentDate > b.commentDate ? -1 : 1;
+    });
+    return sortData;
+}
+
+//按照默认排序
+function sortByDefault(data) {
+    let sortData = data;
+    sortData.commentList.sort((a, b) => {
+        return a.index > b.index ? 1 : -1;
+    });
+    return sortData;
+}
+
 // 获取文章列表
 function getArticles() {
     return Article;
 }
-//公用方法
 
-//更改样式
-function setStyle(el,styleobj){
-    for (key in styleobj){
-        el.style.setProperty(key,styleobj[key]);
-    }
+//从每个文章中获取评论列表
+function getCommentsByArticleObj(articleObj) {
+    return articleObj.commentData;
 }
+
+
 //初始化文章列表
 function initArticleList(elem, data) {
     let li = document.createElement('li');
-    showArticles(elem,li, data);
-    bindArticleFeaturesEvent(li,data);
+    showArticles(elem, li, data);
+    addArticleFeaturesEvent(li, data);
     // window.onscroll = () =>{
     // }
+
+}
+
+//绑定文章功能的事件
+function addArticleFeaturesEvent(elem, data) {
+    //评论功能
+    elem.addEventListener('click', (e) => {
+        let commentBtn = elem.querySelector('.bottom > .right > .comment-btn');
+        let commentData = getCommentsByArticleObj(data);
+        if (e.currentTarget === elem && e.target === commentBtn) {
+
+            if (commentData.isShow) {
+                console.log(commentData.isShow);
+                closeComment(e.currentTarget, commentData);
+                commentData.isShow = false;
+                commentBtn.querySelector('.text').innerHTML = `${commentData.commentList.length} 条评论`;
+            } else {
+                console.log(commentData.isShow);
+                refreshComments(e.currentTarget, commentData);
+                commentData.isShow = true;
+                commentBtn.querySelector('.text').innerHTML = '收起评论';
+                addCommentFeaturesEvent(elem,commentData);
+            }
+        }
+    });
+    //排序功能
+    elem.addEventListener('click', (e) => {
+        let sortBtn = elem.querySelector('.comment > .top > .sort');
+        let commentData = getCommentsByArticleObj(data);
+        if (e.currentTarget === elem && e.target === sortBtn) {
+            if (commentData.sortType === 'default') {
+                closeComment(elem, commentData);
+                let sortData = sortByTime(commentData);
+                commentData.sortType = 'time';
+                refreshComments(elem, sortData);
+                addCommentFeaturesEvent(elem,commentData);
+            } else {
+                closeComment(elem, commentData);
+                let sortData = sortByDefault(commentData);
+                commentData.sortType = 'default';
+                refreshComments(elem, sortData);
+                addCommentFeaturesEvent(elem,commentData);
+            }
+        }
+    });
+    //点赞文章
+    elem.addEventListener('click', (e) => {
+        let praiseBtn = elem.querySelector('.bottom .left > .praise');
+        if (e.currentTarget === elem && e.target === praiseBtn) {
+            if (data.isPraiseArticle) {
+                data.articlePraiseNum -= 1;
+                setStyle(praiseBtn, { background: "#e5f3fe", padding: '0px 12px', color: "#0084ff" });
+                praiseBtn.querySelector('span').innerHTML = `赞同 ${data.articlePraiseNum}`;
+                data.isPraiseArticle = false;
+            } else {
+                data.articlePraiseNum += 1;
+                setStyle(praiseBtn, { background: "#0084ff", padding: '0px 24px', color: "#fff" });
+                praiseBtn.querySelector('span').innerHTML = `赞同 ${data.articlePraiseNum}`;
+                data.isPraiseArticle = true;
+            }
+        }
+    });
+    //反对文章
+    elem.addEventListener('click', (e) => {
+        let unPraiseBtn = elem.querySelector('.bottom > .left > .unPraise');
+        if (e.currentTarget === elem && e.target === unPraiseBtn) {
+            if (data.isUnPraiseArticle) {
+                setStyle(unPraiseBtn, { background: "#0084ff", color: "#fff" });
+                data.isUnPraiseArticle = false;
+            } else {
+                setStyle(unPraiseBtn, { background: "#e5f3fe", color: "#0084ff" });
+                data.isUnPraiseArticle = true;
+            }
+        }
+    });
+
+
+}
+
+//绑定评论功能的事件
+function addCommentFeaturesEvent(elem, data) {
+    let comments = elem.querySelectorAll('.comment > .comment-content > ul > li');
+    //点赞评论
+    comments.forEach((el,index)=>{
+        el.addEventListener('click', (e) => {
+            let praiseBtn = el.querySelector('.warp > .comment-features > .praise');
+            if (e.currentTarget === el && e.target === praiseBtn) {
+                if (data.isPraiseComment) {
+                    setStyle(praiseBtn, { color: "#8590a6" });
+                    data.commentList[index].commentPraiseNum -= 1;
+                    data.isPraiseComment = false;
+                    praiseBtn.querySelector('span').innerHTML = `${data.commentList[index].commentPraiseNum}`;
+                } else {
+                    setStyle(praiseBtn, { color: '#0084ff' });
+                    data.commentList[index].commentPraiseNum += 1;
+                    data.isPraiseComment = true;
+                    praiseBtn.querySelector('span').innerHTML = `${data.commentList[index].commentPraiseNum}`;
+                }
+            }
+        }
+        );
+    })
     
 }
+
 //显示文章
-function showArticles(elem,li, data) {
-    
+function showArticles(elem, li, data) {
+
     li.innerHTML += `
         <h2 class="title">${data.title}</h2>
         <div class="img-text">
@@ -455,7 +591,7 @@ function showArticles(elem,li, data) {
                         d="M2 18.242c0-.326.088-.532.237-.896l7.98-13.203C10.572 3.57 11.086 3 12 3c.915 0 1.429.571 1.784 1.143l7.98 13.203c.15.364.236.57.236.896 0 1.386-.875 1.9-1.955 1.9H3.955c-1.08 0-1.955-.517-1.955-1.9z"
                         fill-rule="evenodd"></path>
                 </svg>
-                            赞同 ${data.articlePraiseNum}</button>
+                            <span>赞同 ${data.articlePraiseNum}</span></button>
                 <button class="unPraise"><svg class="Zi Zi--TriangleunPraise" fill="currentColor"
                     viewBox="0 0 24 24" width="10" height="10">
                     <path
@@ -517,89 +653,9 @@ function showArticles(elem,li, data) {
     elem.append(li);
 }
 
-//刷新赞图标
-function refreshPraise(el,type,data){
-    if(type === 'article'){
-        let praiseEl = el.querySelector('.bottom .left > .praise');
-        if(data.isPraiseArticle){
-            setStyle(praiseEl,{background:"#e5f3fe",padding:'0px 12px',color:"#0084ff"});
-            praiseEl.querySelector('span').innerHTML = `赞同 ${data.articlePraiseNum}`;
-        }else{
-            setStyle(praiseEl,{background:"#0084ff",padding:'0px 24px',color:"#fff"});
-            praiseEl.querySelector('span').innerHTML = `赞同 ${data.articlePraiseNum}`;
-        }
-    }else{
-        let praiseEl = el.querySelector('.comment > .comment-content > ul > li > .warp > .comment-features > .praise');
-        if(data.isPraiseArticle){
-            setStyle(praiseEl,{backgroundColor:"#0084ff",color:"#0084ff"});
-        }else{
-            setStyle(praiseEl,{backgroundColor:"#0084ff",color:"#fff"});
-        }
-    }
-}
-
-//绑定文章功能的事件
-function bindArticleFeaturesEvent(elem,data) {
-    elem.addEventListener('click',(e)=>{
-        let commentBtn = elem.querySelector('.bottom > .right > .comment-btn'); 
-        let commentData = getCommentsByArticleObj(data);  
-        if(e.currentTarget === elem && e.target === commentBtn){
-            if(commentData.commentList.isShow){
-                closeComment(e.currentTarget,commentData);
-                commentData.commentList.isShow = false;
-                commentBtn.querySelector('.text').innerHTML = `${commentData.commentList.length} 条评论`;
-            }else{
-                refreshComments(elem,commentData);
-                showComment(e.currentTarget,commentData);
-                commentData.commentList.isShow = true;
-                commentBtn.querySelector('.text').innerHTML = '收起评论';
-            }
-        }
-    });
-    
-    elem.addEventListener('click',(e) =>{
-        let sortBtn = elem.querySelector('.comment > .top > .sort');
-        let commentData = getCommentsByArticleObj(data); 
-        if(e.currentTarget === elem && e.target === sortBtn){
-            if(commentData.sortType === 'default'){
-                closeComment(elem,commentData);
-                let sortData =  sortByTime(commentData);
-                commentData.sortType = 'time';
-                refreshComments(elem,sortData);
-                showComment(elem,commentData);
-            }else{
-                closeComment(elem,commentData);
-                let sortData = sortByDefault(commentData);
-                commentData.sortType = 'default';
-                refreshComments(elem,sortData);
-                showComment(elem,commentData);
-            }
-        }
-    });
-    elem.addEventListener('click',(e) =>{
-        let praiseBtn = elem.querySelector('.bottom .left > .praise');
-        if(e.currentTarget === elem && e.target === praiseBtn){
-            if(data.isPraiseArticle){
-                data.articlePraiseNum -= 1;
-                refreshPraise(elem,'article',data);
-                data.isPraiseArticle = false;
-            }else{
-                data.articlePraiseNum += 1;
-                refreshPraise(elem,'article',data);
-                data.isPraiseArticle = true;
-            }
-        }
-    })
-}
-
-//从每个文章中获取评论列表
-function getCommentsByArticleObj(articleObj) {
-    return articleObj.commentData;
-}
-
 //刷新评论
-function refreshComments(elem,data){
-    if(elem.querySelector('.comment') != null){
+function refreshComments(elem, data) {
+    if (elem.querySelector('.comment') != null) {
         return;
     }
     let comment = document.createElement('div');
@@ -615,18 +671,18 @@ function refreshComments(elem,data){
         `<div class="top">
         <div class="title">${data.commentList.length}条评论</div>
         <div class="sort"><svg class="Zi Zi--Switch Button-zi" fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em"><path d="M13.004 7V4.232c0-.405.35-.733.781-.733.183 0 .36.06.501.17l6.437 5.033c.331.26.376.722.1 1.033a.803.803 0 0 1-.601.264H2.75a.75.75 0 0 1-.75-.75V7.75A.75.75 0 0 1 2.75 7h10.254zm-1.997 9.999v2.768c0 .405-.35.733-.782.733a.814.814 0 0 1-.5-.17l-6.437-5.034a.702.702 0 0 1-.1-1.032.803.803 0 0 1 .6-.264H21.25a.75.75 0 0 1 .75.75v1.499a.75.75 0 0 1-.75.75H11.007z" fill-rule="evenodd"></path></svg>
-        ${data.sortType === 'default' ? '切换为时间排序':'切换为默认排序'}</div>
+        ${data.sortType === 'default' ? '切换为时间排序' : '切换为默认排序'}</div>
     </div>
         <div class="subtitle"><span class="text">评论（${data.commentList.length})</span></div>
         `;
     for (let i = 0; i < data.commentList.length; i++) {
         ul.innerHTML +=
             `
-                <li class="${data.commentList[i].type} ${data.sortType === 'default' ? '':'sort-by-time'}">
+                <li class="${data.commentList[i].type} ${data.sortType === 'default' ? '' : 'sort-by-time'}">
                     <div class="warp">
                         <div class="top">
                             <img class="user-img" src="${data.commentList[i].userImgUrl}" />
-                            <div class="user-name">${data.commentList[i].userName}${data.commentList[i].type === 'root-comment' ? '':`<span> 回复 </span>${data.commentList[i].replyUser}`}</div>
+                            <div class="user-name">${data.commentList[i].userName}${data.commentList[i].type === 'root-comment' ? '' : `<span> 回复 </span>${data.commentList[i].replyUser}`}</div>
                             <div class="comment-date">${data.commentList[i].commentDate}</div>
                         </div>
                         <div class="comment-text">${data.commentList[i].text}</div>
@@ -638,7 +694,7 @@ function refreshComments(elem,data){
                                     d="M14.445 9h5.387s2.997.154 1.95 3.669c-.168.51-2.346 6.911-2.346 6.911s-.763 1.416-2.86 1.416H8.989c-1.498 0-2.005-.896-1.989-2v-7.998c0-.987.336-2.032 1.114-2.639 4.45-3.773 3.436-4.597 4.45-5.83.985-1.13 3.2-.5 3.037 2.362C15.201 7.397 14.445 9 14.445 9zM3 9h2a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V10a1 1 0 0 1 1-1z"
                                     fill-rule="evenodd"></path>
                             </svg>
-                                ${data.commentList[i].commentPraiseNum}</button>
+                                <span>${data.commentList[i].commentPraiseNum}</span></button>
                             <button class="reply hover-btn"><svg class="Zi Zi--Reply" fill="currentColor"
                                 viewBox="0 0 24 24" width="16" height="16"
                                 style="margin-right: 5px;">
@@ -687,32 +743,9 @@ function refreshComments(elem,data){
     elem.append(comment);
 }
 
-//显示评论
-function showComment(el,data) {
-    refreshComments(el,data);
-}
 
-//关闭评论
-function closeComment(el,data) {
-    el.querySelector('.comment').outerHTML = '';
-}
 
-//按照时间排序
-function sortByTime(data){
-    let sortData = data;
-    sortData.commentList.sort((a,b) => {
-        return a.commentDate > b.commentDate ? -1:1;
-    });
-    return sortData;
-}
-//按照默认排序
-function sortByDefault(data){
-    let sortData = data;
-    sortData.commentList.sort((a,b) => {
-        return a.index > b.index ? 1:-1;
-    });
-    return sortData;
-}
+
 
 
 
@@ -721,9 +754,4 @@ let articleUl = document.querySelector('body > section > .main > .content > ul')
 let articleItem = [];
 articles.forEach((value) => {
     initArticleList(articleUl, value);
-    articleItem.push(value);
-});
-let articleLi = document.querySelectorAll('body > section > .main > .content > ul > li');
-articleLi.forEach((elem,index) =>{
-    bindArticleFeaturesEvent(elem,articleItem[index]);
 });

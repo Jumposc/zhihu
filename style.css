@@ -357,6 +357,9 @@ body > section > .main > .content > ul > li > .comment > .comment-content > ul >
 body > section > .main > .content > ul > li > .comment > .comment-content > ul > * > .warp > .comment-features > * > svg {
   display: inline-flex;
 }
+body > section > .main > .content > ul > li > .comment > .comment-content > ul > * > .warp > .comment-features > * > * {
+  pointer-events: none;
+}
 body > section > .main > .content > ul > li > .comment > .comment-content > ul > * > .warp > .comment-features > .hover-btn {
   display: none;
 }
