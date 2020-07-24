@@ -419,7 +419,6 @@ function setStyle(el, styleobj) {
 
 //关闭评论
 function closeComment(el, data) {
-    console.log('调用关闭');
     let comment = el.querySelector('.comment')
     el.removeChild(comment);
 }
@@ -472,12 +471,10 @@ function addArticleFeaturesEvent(elem, data) {
         if (e.currentTarget === elem && e.target === commentBtn) {
 
             if (commentData.isShow) {
-                console.log(commentData.isShow);
                 closeComment(e.currentTarget, commentData);
                 commentData.isShow = false;
                 commentBtn.querySelector('.text').innerHTML = `${commentData.commentList.length} 条评论`;
             } else {
-                console.log(commentData.isShow);
                 refreshComments(e.currentTarget, commentData);
                 commentData.isShow = true;
                 commentBtn.querySelector('.text').innerHTML = '收起评论';
