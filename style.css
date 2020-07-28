@@ -457,9 +457,9 @@ body > section > .main > .content > ul > li > .comment > .footer > .submit {
   flex: 0 0 auto;
   font-size: 14px;
   color: #fff;
-  background-color: #0084ff;
+  background-color: #80c2ff;
   box-sizing: unset;
-  border: 1px solid #0084ff;
+  border: 1px solid #80c2ff;
   border-radius: 3px;
   margin-left: 25px;
 }

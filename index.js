@@ -12,6 +12,7 @@ let Article = [
         commentData: {
             isShow: false,
             sortType: 'default',
+            hightPickCommentNum: 2,
             commentList: [
                 {
                     type: 'root-comment',
@@ -67,7 +68,10 @@ let Article = [
                 }
             ]
         },
-    }, {
+
+
+    },
+    {
         id: 1,
         title: '美国政府要求中国 72 小时内关闭驻休斯敦总领事馆，释放了哪些信号？',
         desc: '叶鱼： 大家也没必要在意这个“细思极恐”，词语贫瘠时代，已经成了知乎电视剧话题的提问风格，作为一部现代都市题材有啥可“细思极恐”的。我是把它当“值得注…',
@@ -80,6 +84,7 @@ let Article = [
         commentData: {
             isShow: false,
             sortType: 'default',
+            hightPickCommentNum: 2,
             commentList: [
                 {
                     type: 'root-comment',
@@ -135,7 +140,10 @@ let Article = [
                 }
             ]
         },
-    }, {
+
+
+    },
+    {
         id: 1,
         title: '美国政府要求中国 72 小时内关闭驻休斯敦总领事馆，释放了哪些信号？',
         desc: '叶鱼： 大家也没必要在意这个“细思极恐”，词语贫瘠时代，已经成了知乎电视剧话题的提问风格，作为一部现代都市题材有啥可“细思极恐”的。我是把它当“值得注…',
@@ -148,6 +156,7 @@ let Article = [
         commentData: {
             isShow: false,
             sortType: 'default',
+            hightPickCommentNum: 2,
             commentList: [
                 {
                     type: 'root-comment',
@@ -203,7 +212,10 @@ let Article = [
                 }
             ]
         },
-    }, {
+
+
+    },
+    {
         id: 1,
         title: '美国政府要求中国 72 小时内关闭驻休斯敦总领事馆，释放了哪些信号？',
         desc: '叶鱼： 大家也没必要在意这个“细思极恐”，词语贫瘠时代，已经成了知乎电视剧话题的提问风格，作为一部现代都市题材有啥可“细思极恐”的。我是把它当“值得注…',
@@ -216,6 +228,7 @@ let Article = [
         commentData: {
             isShow: false,
             sortType: 'default',
+            hightPickCommentNum: 2,
             commentList: [
                 {
                     type: 'root-comment',
@@ -271,7 +284,10 @@ let Article = [
                 }
             ]
         },
-    }, {
+
+
+    },
+    {
         id: 1,
         title: '美国政府要求中国 72 小时内关闭驻休斯敦总领事馆，释放了哪些信号？',
         desc: '叶鱼： 大家也没必要在意这个“细思极恐”，词语贫瘠时代，已经成了知乎电视剧话题的提问风格，作为一部现代都市题材有啥可“细思极恐”的。我是把它当“值得注…',
@@ -284,6 +300,7 @@ let Article = [
         commentData: {
             isShow: false,
             sortType: 'default',
+            hightPickCommentNum: 2,
             commentList: [
                 {
                     type: 'root-comment',
@@ -339,74 +356,8 @@ let Article = [
                 }
             ]
         },
-    }, {
-        id: 1,
-        title: '美国政府要求中国 72 小时内关闭驻休斯敦总领事馆，释放了哪些信号？',
-        desc: '叶鱼： 大家也没必要在意这个“细思极恐”，词语贫瘠时代，已经成了知乎电视剧话题的提问风格，作为一部现代都市题材有啥可“细思极恐”的。我是把它当“值得注…',
-        type: 'article',
-        imgUrl: '',
-        articlePraiseNum: 233,
-        isPraiseArticle: false,
-        isUnPraiseArticle: false,
-        commentNum: 4,
-        commentData: {
-            isShow: false,
-            sortType: 'default',
-            commentList: [
-                {
-                    type: 'root-comment',
-                    userName: 'zzzzzz',
-                    userImgUrl: "./images/user.jpg",
-                    commentDate: '2020-01-20',
-                    text: '11111111111111111111',
-                    commentPraiseNum: 15,
-                    isPraiseComment: false,
-                    index: 1
-                },
-                {
-                    type: 'root-comment',
-                    userName: 'zzzzzz',
-                    userImgUrl: "./images/user.jpg",
-                    commentDate: '2021-11-20',
-                    text: '2222222222222222222222222222',
-                    commentPraiseNum: 15,
-                    isPraiseComment: false,
-                    index: 2
-                },
-                {
-                    type: 'sub-comment',
-                    userName: 'zzzzzz',
-                    replyUser: 'iiooie',
-                    userImgUrl: "./images/user.jpg",
-                    commentDate: '2019-10-22',
-                    text: '333333333333333333333333333',
-                    commentPraiseNum: 15,
-                    isPraiseComment: false,
-                    index: 3
-                },
-                {
-                    type: 'sub-comment',
-                    userName: 'zzzzzz',
-                    replyUser: 'iiooie',
-                    userImgUrl: "./images/user.jpg",
-                    commentDate: '2019-01-20',
-                    text: '555555555555555',
-                    commentPraiseNum: 15,
-                    isPraiseComment: false,
-                    index: 3
-                },
-                {
-                    type: 'root-comment',
-                    userName: 'zzzzzz',
-                    userImgUrl: "./images/user.jpg",
-                    commentDate: '2019-02-20',
-                    text: '2222222222222222222222222222',
-                    commentPraiseNum: 15,
-                    isPraiseComment: false,
-                    index: 4
-                }
-            ]
-        },
+
+
     },
 ]
 
@@ -478,7 +429,7 @@ function addArticleFeaturesEvent(elem, data) {
                 refreshComments(e.currentTarget, commentData);
                 commentData.isShow = true;
                 commentBtn.querySelector('.text').innerHTML = '收起评论';
-                addCommentFeaturesEvent(elem, commentData);
+
             }
         }
     });
@@ -539,35 +490,56 @@ function addArticleFeaturesEvent(elem, data) {
 //绑定评论功能的事件
 function addCommentFeaturesEvent(elem, data) {
     let comments = elem.querySelectorAll('.comment > .comment-content > ul > li');
-
     comments.forEach((el, index) => {
         //点赞评论
-        el.addEventListener('click', (e) => {
-            let praiseBtn = el.querySelector('.warp > .comment-features > .praise');
-            if (e.currentTarget === el && e.target === praiseBtn) {
-                if (data.commentList[index].isPraiseComment) {
-                    setStyle(praiseBtn, { color: "#8590a6" });
-                    data.commentList[index].commentPraiseNum -= 1;
-                    data.commentList[index].isPraiseComment = false;
-                    praiseBtn.querySelector('span').innerHTML = `${data.commentList[index].commentPraiseNum}`;
-                } else {
-                    setStyle(praiseBtn, { color: '#0084ff' });
-                    data.commentList[index].commentPraiseNum += 1;
-                    data.commentList[index].isPraiseComment = true;
-                    praiseBtn.querySelector('span').innerHTML = `${data.commentList[index].commentPraiseNum}`;
-                }
+        el.querySelector('.warp > .comment-features > .praise').addEventListener('click', (e) => {
+            if (data.commentList[index].isPraiseComment) {
+                data.commentList[index].commentPraiseNum -= 1;
+                data.commentList[index].isPraiseComment = false;
+                refreshComments(elem, data);
+            } else {
+                data.commentList[index].commentPraiseNum += 1;
+                data.commentList[index].isPraiseComment = true;
+                refreshComments(elem, data);
             }
         }
         );
-        //检查点赞状态
-        let praiseBtn = el.querySelector('.warp > .comment-features > .praise');
-        if (data.commentList[index].isPraiseComment) {
-            setStyle(praiseBtn, { color: "#0084ff" });
-        } else {
-            setStyle(praiseBtn, { color: '#8590a6' });
-        }
+        //删除评论
+        el.querySelector('.warp > .comment-features > .delete').addEventListener('click', () => {
+            data.commentList.splice(index, 1);
+            refreshComments(elem, data);
+        })
     }
     )
+    //添加评论
+    elem.querySelector('.comment > .footer > .submit').addEventListener('click', () => {
+        let comment = {
+            type: 'root-comment',
+            userName: 'zzzzzz',
+            userImgUrl: "./images/user.jpg",
+            commentDate: '2020-01-20',
+            text: '',
+            commentPraiseNum: 0,
+            isPraiseComment: false,
+            index: 0
+        };
+        comment.text = elem.querySelector('.comment > .footer > .comment-input > input').value;
+        comment.index = data.commentList.length;
+        data.commentList.push(comment);
+        refreshComments(elem, data);
+    });
+    //监听是否启用按钮
+    elem.querySelector('.comment > .footer > .comment-input > input').addEventListener('input', () => {
+        let inputValue = elem.querySelector('.comment > .footer > .comment-input > input').value;
+        let submit = elem.querySelector('.comment > .footer > .submit');
+        if (inputValue) {
+            submit.disabled = false;
+            submit.style.backgroundColor = '#0084ff';
+        } else {
+            submit.disabled = true;
+            submit.style.backgroundColor = '#80c2ff';
+        }
+    })
 
 }
 
@@ -661,8 +633,8 @@ function showArticles(elem, li, data) {
 
 //刷新评论
 function refreshComments(elem, data) {
-    if (elem.querySelector('.comment') != null) {
-        return;
+    if (elem.querySelector('.comment') !== null) {
+        elem.removeChild(elem.querySelector('.comment'));
     }
     let comment = document.createElement('div');
     let ul = document.createElement('ul');
@@ -673,14 +645,85 @@ function refreshComments(elem, data) {
     commentfooter.className = 'footer';
     commentList.className = 'comment-content';
     comment.className = 'comment';
-    comment.innerHTML =
-        `<div class="top">
+    if (data.hightPickCommentNum > 0 && data.sortType === 'default') {
+        let hightPickComment = document.createElement('div');
+        let hightPickCommentTitle = document.createElement('div');
+        let hightPickCommentUl = document.createElement('ul');
+        hightPickCommentTitle.className = 'subtitle';
+        hightPickComment.className = 'comment-content';
+        comment.innerHTML =
+            `<div class="top">
+        <div class="title">${data.commentList.length}条评论</div>
+        <div class="sort"><svg class="Zi Zi--Switch Button-zi" fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em"><path d="M13.004 7V4.232c0-.405.35-.733.781-.733.183 0 .36.06.501.17l6.437 5.033c.331.26.376.722.1 1.033a.803.803 0 0 1-.601.264H2.75a.75.75 0 0 1-.75-.75V7.75A.75.75 0 0 1 2.75 7h10.254zm-1.997 9.999v2.768c0 .405-.35.733-.782.733a.814.814 0 0 1-.5-.17l-6.437-5.034a.702.702 0 0 1-.1-1.032.803.803 0 0 1 .6-.264H21.25a.75.75 0 0 1 .75.75v1.499a.75.75 0 0 1-.75.75H11.007z" fill-rule="evenodd"></path></svg>
+        ${data.sortType === 'default' ? '切换为时间排序' : '切换为默认排序'}</div>
+        </div>`
+
+        hightPickCommentTitle.innerHTML = `
+        <span class="text">精选评论（${data.hightPickCommentNum})</span>
+        `
+        for (let i = 0; i < data.hightPickCommentNum; i++) {
+            hightPickCommentUl.innerHTML += `
+            <li class="root">
+                <div class="warp">
+                    <div class="top">
+                        <img class="user-img" src="${data.commentList[i].userImgUrl}" />
+                        <div class="user-name">${data.commentList[i].userName}${data.commentList[i].type === 'root-comment' ? '' : `<span> 回复 </span>${data.commentList[i].replyUser}`}</div>
+                        <div class="comment-date">${data.commentList[i].commentDate}</div>
+                    </div>
+                    <div class="comment-text">${data.commentList[i].text}</div>
+                    <div class="comment-features">
+                        <button class="praise"><svg class="Zi Zi--Like" fill="currentColor"
+                            viewBox="0 0 24 24" width="16" height="16"
+                            style="margin-right: 5px;${data.commentList[i].isPraiseComment ? 'color:#0084ff' : 'color:#8590a6'}">
+                            <path
+                                d="M14.445 9h5.387s2.997.154 1.95 3.669c-.168.51-2.346 6.911-2.346 6.911s-.763 1.416-2.86 1.416H8.989c-1.498 0-2.005-.896-1.989-2v-7.998c0-.987.336-2.032 1.114-2.639 4.45-3.773 3.436-4.597 4.45-5.83.985-1.13 3.2-.5 3.037 2.362C15.201 7.397 14.445 9 14.445 9zM3 9h2a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V10a1 1 0 0 1 1-1z"
+                                fill-rule="evenodd"></path>
+                        </svg>
+                            <span>${data.commentList[i].commentPraiseNum}</span></button>
+                        <button class="reply hover-btn"><svg class="Zi Zi--Reply" fill="currentColor"
+                            viewBox="0 0 24 24" width="16" height="16"
+                            style="margin-right: 5px;">
+                            <path
+                                d="M22.959 17.22c-1.686-3.552-5.128-8.062-11.636-8.65-.539-.053-1.376-.436-1.376-1.561V4.678c0-.521-.635-.915-1.116-.521L1.469 10.67a1.506 1.506 0 0 0-.1 2.08s6.99 6.818 7.443 7.114c.453.295 1.136.124 1.135-.501V17a1.525 1.525 0 0 1 1.532-1.466c1.186-.139 7.597-.077 10.33 2.396 0 0 .396.257.536.257.892 0 .614-.967.614-.967z"
+                                fill-rule="evenodd"></path>
+                        </svg>
+                            回复</button>
+                        <button class="unPraise hover-btn"><svg class="Zi Zi--Like" fill="currentColor"
+                            viewBox="0 0 24 24" width="16" height="16"
+                            style="transform: rotate(180deg); margin-right: 5px;">
+                            <path
+                                d="M14.445 9h5.387s2.997.154 1.95 3.669c-.168.51-2.346 6.911-2.346 6.911s-.763 1.416-2.86 1.416H8.989c-1.498 0-2.005-.896-1.989-2v-7.998c0-.987.336-2.032 1.114-2.639 4.45-3.773 3.436-4.597 4.45-5.83.985-1.13 3.2-.5 3.037 2.362C15.201 7.397 14.445 9 14.445 9zM3 9h2a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V10a1 1 0 0 1 1-1z"
+                                fill-rule="evenodd"></path>
+                        </svg>
+                            踩</button>
+                        <button class="report hover-btn"><svg class="Zi Zi--Report" fill="currentColor"
+                            viewBox="0 0 24 24" width="16" height="16"
+                            style="margin-right: 5px;">
+                            <path
+                                d="M19.947 3.129c-.633.136-3.927.639-5.697.385-3.133-.45-4.776-2.54-9.949-.888-.997.413-1.277 1.038-1.277 2.019L3 20.808c0 .3.101.54.304.718a.97.97 0 0 0 .73.304c.275 0 .519-.102.73-.304.202-.179.304-.418.304-.718v-6.58c4.533-1.235 8.047.668 8.562.864 2.343.893 5.542.008 6.774-.657.397-.178.596-.474.596-.887V3.964c0-.599-.42-.972-1.053-.835z"
+                                fill-rule="evenodd"></path>
+                        </svg>
+                            报告</button>
+                        <button class='delete hover-btn'>删除评论</button>
+                    </div>
+                </div>
+            </li>
+        `;
+        }
+        hightPickComment.appendChild(hightPickCommentUl);
+        comment.appendChild(hightPickCommentTitle);
+        comment.appendChild(hightPickComment);
+        comment.innerHTML += `<div class="subtitle"><span class="text">评论（${data.commentList.length})</span></div>`;
+    } else {
+        comment.innerHTML =
+            `<div class="top">
         <div class="title">${data.commentList.length}条评论</div>
         <div class="sort"><svg class="Zi Zi--Switch Button-zi" fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em"><path d="M13.004 7V4.232c0-.405.35-.733.781-.733.183 0 .36.06.501.17l6.437 5.033c.331.26.376.722.1 1.033a.803.803 0 0 1-.601.264H2.75a.75.75 0 0 1-.75-.75V7.75A.75.75 0 0 1 2.75 7h10.254zm-1.997 9.999v2.768c0 .405-.35.733-.782.733a.814.814 0 0 1-.5-.17l-6.437-5.034a.702.702 0 0 1-.1-1.032.803.803 0 0 1 .6-.264H21.25a.75.75 0 0 1 .75.75v1.499a.75.75 0 0 1-.75.75H11.007z" fill-rule="evenodd"></path></svg>
         ${data.sortType === 'default' ? '切换为时间排序' : '切换为默认排序'}</div>
     </div>
         <div class="subtitle"><span class="text">评论（${data.commentList.length})</span></div>
         `;
+    }
     for (let i = 0; i < data.commentList.length; i++) {
         ul.innerHTML +=
             `
@@ -695,7 +738,7 @@ function refreshComments(elem, data) {
                         <div class="comment-features">
                             <button class="praise"><svg class="Zi Zi--Like" fill="currentColor"
                                 viewBox="0 0 24 24" width="16" height="16"
-                                style="margin-right: 5px;">
+                                style="margin-right: 5px;${data.commentList[i].isPraiseComment ? 'color:#0084ff' : 'color:#8590a6'}">
                                 <path
                                     d="M14.445 9h5.387s2.997.154 1.95 3.669c-.168.51-2.346 6.911-2.346 6.911s-.763 1.416-2.86 1.416H8.989c-1.498 0-2.005-.896-1.989-2v-7.998c0-.987.336-2.032 1.114-2.639 4.45-3.773 3.436-4.597 4.45-5.83.985-1.13 3.2-.5 3.037 2.362C15.201 7.397 14.445 9 14.445 9zM3 9h2a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V10a1 1 0 0 1 1-1z"
                                     fill-rule="evenodd"></path>
@@ -725,6 +768,7 @@ function refreshComments(elem, data) {
                                     fill-rule="evenodd"></path>
                             </svg>
                                 报告</button>
+                            <button class='delete hover-btn'>删除评论</button>
                         </div>
                     </div>
                 </li>
@@ -742,11 +786,12 @@ function refreshComments(elem, data) {
                 <input type="text" placeholder="写下你的评论..." />
                 <svg class="Zi Zi--Emotion" fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><path d="M7.523 13.5h8.954c-.228 2.47-2.145 4-4.477 4-2.332 0-4.25-1.53-4.477-4zM12 21a9 9 0 1 1 0-18 9 9 0 0 1 0 18zm0-1.5a7.5 7.5 0 1 0 0-15 7.5 7.5 0 0 0 0 15zm-3-8a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm6 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"></path></svg>
             </div>
-            <button class="submit">发布</button>`
+            <button class="submit" disabled>发布</button>`
     comment.append(commentList);
     comment.append(commentpage);
     comment.append(commentfooter);
     elem.append(comment);
+    addCommentFeaturesEvent(elem, data);
 }
 
 
