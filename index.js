@@ -22,7 +22,7 @@ let Article = [
                     text: '11111111111111111111',
                     commentPraiseNum: 15,
                     isPraiseComment: false,
-                    index: 1
+                    index: 0
                 },
                 {
                     type: 'root-comment',
@@ -32,7 +32,7 @@ let Article = [
                     text: '2222222222222222222222222222',
                     commentPraiseNum: 15,
                     isPraiseComment: false,
-                    index: 2
+                    index: 1
                 },
                 {
                     type: 'sub-comment',
@@ -43,7 +43,7 @@ let Article = [
                     text: '333333333333333333333333333',
                     commentPraiseNum: 15,
                     isPraiseComment: false,
-                    index: 3
+                    index: 2
                 },
                 {
                     type: 'sub-comment',
@@ -68,8 +68,6 @@ let Article = [
                 }
             ]
         },
-
-
     },
     {
         id: 1,
@@ -94,7 +92,7 @@ let Article = [
                     text: '11111111111111111111',
                     commentPraiseNum: 15,
                     isPraiseComment: false,
-                    index: 1
+                    index: 0
                 },
                 {
                     type: 'root-comment',
@@ -104,7 +102,7 @@ let Article = [
                     text: '2222222222222222222222222222',
                     commentPraiseNum: 15,
                     isPraiseComment: false,
-                    index: 2
+                    index: 1
                 },
                 {
                     type: 'sub-comment',
@@ -115,7 +113,7 @@ let Article = [
                     text: '333333333333333333333333333',
                     commentPraiseNum: 15,
                     isPraiseComment: false,
-                    index: 3
+                    index: 2
                 },
                 {
                     type: 'sub-comment',
@@ -140,8 +138,6 @@ let Article = [
                 }
             ]
         },
-
-
     },
     {
         id: 1,
@@ -166,7 +162,7 @@ let Article = [
                     text: '11111111111111111111',
                     commentPraiseNum: 15,
                     isPraiseComment: false,
-                    index: 1
+                    index: 0
                 },
                 {
                     type: 'root-comment',
@@ -176,7 +172,7 @@ let Article = [
                     text: '2222222222222222222222222222',
                     commentPraiseNum: 15,
                     isPraiseComment: false,
-                    index: 2
+                    index: 1
                 },
                 {
                     type: 'sub-comment',
@@ -187,7 +183,7 @@ let Article = [
                     text: '333333333333333333333333333',
                     commentPraiseNum: 15,
                     isPraiseComment: false,
-                    index: 3
+                    index: 2
                 },
                 {
                     type: 'sub-comment',
@@ -212,8 +208,6 @@ let Article = [
                 }
             ]
         },
-
-
     },
     {
         id: 1,
@@ -238,7 +232,7 @@ let Article = [
                     text: '11111111111111111111',
                     commentPraiseNum: 15,
                     isPraiseComment: false,
-                    index: 1
+                    index: 0
                 },
                 {
                     type: 'root-comment',
@@ -248,7 +242,7 @@ let Article = [
                     text: '2222222222222222222222222222',
                     commentPraiseNum: 15,
                     isPraiseComment: false,
-                    index: 2
+                    index: 1
                 },
                 {
                     type: 'sub-comment',
@@ -259,7 +253,7 @@ let Article = [
                     text: '333333333333333333333333333',
                     commentPraiseNum: 15,
                     isPraiseComment: false,
-                    index: 3
+                    index: 2
                 },
                 {
                     type: 'sub-comment',
@@ -284,80 +278,6 @@ let Article = [
                 }
             ]
         },
-
-
-    },
-    {
-        id: 1,
-        title: '美国政府要求中国 72 小时内关闭驻休斯敦总领事馆，释放了哪些信号？',
-        desc: '叶鱼： 大家也没必要在意这个“细思极恐”，词语贫瘠时代，已经成了知乎电视剧话题的提问风格，作为一部现代都市题材有啥可“细思极恐”的。我是把它当“值得注…',
-        type: 'article',
-        imgUrl: '',
-        articlePraiseNum: 233,
-        isPraiseArticle: false,
-        isUnPraiseArticle: false,
-        commentNum: 4,
-        commentData: {
-            isShow: false,
-            sortType: 'default',
-            hightPickCommentNum: 2,
-            commentList: [
-                {
-                    type: 'root-comment',
-                    userName: 'zzzzzz',
-                    userImgUrl: "./images/user.jpg",
-                    commentDate: '2020-01-20',
-                    text: '11111111111111111111',
-                    commentPraiseNum: 15,
-                    isPraiseComment: false,
-                    index: 1
-                },
-                {
-                    type: 'root-comment',
-                    userName: 'zzzzzz',
-                    userImgUrl: "./images/user.jpg",
-                    commentDate: '2021-11-20',
-                    text: '2222222222222222222222222222',
-                    commentPraiseNum: 15,
-                    isPraiseComment: false,
-                    index: 2
-                },
-                {
-                    type: 'sub-comment',
-                    userName: 'zzzzzz',
-                    replyUser: 'iiooie',
-                    userImgUrl: "./images/user.jpg",
-                    commentDate: '2019-10-22',
-                    text: '333333333333333333333333333',
-                    commentPraiseNum: 15,
-                    isPraiseComment: false,
-                    index: 3
-                },
-                {
-                    type: 'sub-comment',
-                    userName: 'zzzzzz',
-                    replyUser: 'iiooie',
-                    userImgUrl: "./images/user.jpg",
-                    commentDate: '2019-01-20',
-                    text: '555555555555555',
-                    commentPraiseNum: 15,
-                    isPraiseComment: false,
-                    index: 3
-                },
-                {
-                    type: 'root-comment',
-                    userName: 'zzzzzz',
-                    userImgUrl: "./images/user.jpg",
-                    commentDate: '2019-02-20',
-                    text: '2222222222222222222222222222',
-                    commentPraiseNum: 15,
-                    isPraiseComment: false,
-                    index: 4
-                }
-            ]
-        },
-
-
     },
 ]
 
@@ -490,7 +410,8 @@ function addArticleFeaturesEvent(elem, data) {
 //绑定评论功能的事件
 function addCommentFeaturesEvent(elem, data) {
     let comments = elem.querySelectorAll('.comment > .comment-content > ul > li');
-    comments.forEach((el, index) => {
+    comments.forEach((el, i) => {
+        let index = data.hightPickCommentNum > 0 && i >= data.hightPickCommentNum  ? i - data.hightPickCommentNum : i;
         //点赞评论
         el.querySelector('.warp > .comment-features > .praise').addEventListener('click', (e) => {
             if (data.commentList[index].isPraiseComment) {
@@ -645,7 +566,7 @@ function refreshComments(elem, data) {
     commentfooter.className = 'footer';
     commentList.className = 'comment-content';
     comment.className = 'comment';
-    if (data.hightPickCommentNum > 0 && data.sortType === 'default') {
+    if (data.hightPickCommentNum > 0 && data.sortType === 'default' && data.commentList.length >= data.hightPickCommentNum) {
         let hightPickComment = document.createElement('div');
         let hightPickCommentTitle = document.createElement('div');
         let hightPickCommentUl = document.createElement('ul');
